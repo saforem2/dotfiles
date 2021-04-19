@@ -1,0 +1,37 @@
+patch.linewidth: 0.5
+patch.facecolor: 348ABD  # blue
+patch.edgecolor: EEEEEE
+patch.antialiased: True
+
+font.size: 10.0
+
+axes.facecolor: white
+axes.edgecolor: k  
+axes.linewidth: 1
+axes.grid: False
+axes.titlesize: x-large
+axes.labelsize: large
+axes.labelcolor: k
+axes.axisbelow: True       # grid/ticks are below elements (e.g., lines, text)
+
+axes.prop_cycle: cycler('color', ['2A9Df8', 'FF920B', '65e41d', 'be67ff', 'ff7e79', '959595'])
+
+				   # E24A33 : red
+                   # 348ABD : blue
+                   # 988ED5 : purple
+                   # 777777 : gray
+                   # FBC15E : yellow
+                   # 8EBA42 : green
+                   # FFB5B8 : pink
+
+xtick.color: k
+xtick.direction: in
+xtick.major.size     : 3.5      # major tick size in points
+xtick.minor.size     : 2      # minor tick size in points
+
+ytick.color: k
+ytick.major.size     : 3.5      # major tick size in points
+ytick.minor.size     : 2      # minor tick size in points
+ytick.direction: in
+
+figure.facecolor: white

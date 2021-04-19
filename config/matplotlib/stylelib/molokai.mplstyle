@@ -1,0 +1,21 @@
+axes.edgecolor: white
+axes.facecolor: 1c1c1c
+axes.grid: True
+axes.labelcolor: 0.9
+axes.linewidth: 0.0
+axes.prop_cycle: cycler('color', ['4df840', 'f92672', '007dff', 'ffff00', 'ff9800', '8c54fe', 'fefeff', 'ff5fff', '23cfd5'])
+font.sans-serif: Overpass
+font.serif: DejaVu Serif
+grid.color: 2A3459
+image.cmap: 'viridis'
+lines.solid_capstyle: round
+patch.edgecolor: 696c77
+patch.facecolor: 303030
+text.color: 0.9
+xtick.color: 0.9
+xtick.major.size: 0.0
+xtick.minor.size: 0.0
+ytick.color: 0.9
+ytick.major.size: 0.0
+ytick.minor.size: 0.0
+figure.facecolor: 1c1c1c

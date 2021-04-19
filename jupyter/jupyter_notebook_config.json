@@ -1,0 +1,12 @@
+{
+  "NotebookApp": {
+    "nbserver_extensions": {
+      "jupyter_nbextensions_configurator": true,
+      "jupyter_http_over_ws": true
+    },
+    "server_extensions": [
+      "jupyter_nbextensions_configurator"
+    ],
+    "password": "sha1:04a3e9cef029:4d47160a65417dd1936c33e694fecb8466b27eb1"
+  }
+}

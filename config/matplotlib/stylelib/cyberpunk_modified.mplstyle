@@ -1,0 +1,20 @@
+axes.edgecolor: white
+axes.facecolor: 1c1c1c
+axes.grid: True
+axes.labelcolor: 0.9
+axes.linewidth: 0.0
+axes.prop_cycle: cycler('color', ['08F7FE', 'FE53BB', 'F5D300', '00ff41', '9467bd'])
+figure.facecolor: 1c1c1c
+font.sans-serif: Arial
+font.serif: DejaVu Serif
+grid.color: 404040
+image.cmap: cool
+lines.solid_capstyle: round
+patch.edgecolor: efefef
+text.color: 0.9
+xtick.color: 0.9
+xtick.major.size: 0.0
+xtick.minor.size: 0.0
+ytick.color: 0.9
+ytick.major.size: 0.0
+ytick.minor.size: 0.0

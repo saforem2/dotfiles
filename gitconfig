@@ -1,0 +1,5 @@
+[user]
+	name = Sam Foreman
+	email = saforem2@gmail.com
+[core]
+	editor = nvim

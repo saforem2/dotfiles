@@ -1,0 +1,79 @@
+- defaults:
+    link:
+        force: true
+        create: true
+        relink: true
+
+- clean: ['~', '~/.config']
+
+- link:
+    ~/.bashrc: bashrc
+    ~/.zshrc: zshrc
+    ~/.vimrc: vimrc
+    ~/.vim: vim
+    ~/.aliases: aliases
+    ~/.tmux.conf: tmux.conf
+    ~/.tmux.conf.local: tmux.conf.local
+    ~/.bash_profile: bash_profile
+    ~/.gitconfig: gitconfig
+    ~/.gitignore_global: gitignore_global
+    ~/.vim/after:
+        relink: true
+        path: vim/after
+        create: true
+    ~/.vim/ftplugin:
+        relink: true
+        path: vim/ftplugin
+        create: true
+    ~/.vim/syntax:
+        relink: true
+        path: vim/syntax
+        create: true
+    ~/.ssh/config:
+        relink: true
+        path: ssh/config
+        create: true
+    ~/.config/nvim:
+        glob: true
+        relink: true
+        path: config/nvim/*
+        create: true
+    ~/.config/fish/config.fish:
+        relink: true
+        create: true
+        path: config/fish/config.fish
+    ~/.config/fish/fish_plugins:
+        relink: true
+        create: true
+        path: config/fish/fish_plugins
+    ~/.config/fish/fish_variables:
+        relink: true
+        create: true
+        path: config/fish/fish_variables
+    ~/.config/coc:
+        relink: true
+        create: true
+        path: config/coc
+    ~/.config/matplotlib:
+        relink: true
+        create: true
+        path: config/matplotlib
+    ~/.ipython/profile_default/ipython_config.py:
+        relink: true
+        create: true
+        path: ipython/ipython_config.py
+    ~/.ipython/profile_default/ipython_kernel_config.py:
+        relink: true
+        create: true
+        path: ipython/ipython_kernel_config.py
+    ~/.jupyter/jupyter_notebook_config.py:
+        relink: true
+        create: true
+        path: jupyter/jupyter_notebook_config.py
+    ~/.jupyter/nbconfig/notebook.json:
+        relink: true
+        create: true
+        path: jupyter/nbconfig/notebook.json
+
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]

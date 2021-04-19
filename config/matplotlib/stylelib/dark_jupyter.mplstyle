@@ -1,0 +1,93 @@
+# from http://www.huyng.com/posts/sane-color-scheme-for-matplotlib/
+
+patch.linewidth: 0.5
+patch.facecolor: 66D9EF # blue
+#347ABD
+patch.edgecolor: 1c2022
+patch.antialiased: True
+
+font.size: 10.0
+
+#Eafff5
+#1c2022
+#474747
+#
+
+axes.facecolor: 1c2022 #9e9e9e
+axes.edgecolor: 1c2022
+axes.linewidth: 1
+axes.grid: True
+axes.titlesize: x-large
+axes.labelsize: large
+axes.labelcolor: k
+axes.axisbelow: True       # grid/ticks are below elements (e.g., lines, text)
+
+axes.prop_cycle: cycler('color', ['d3ff00', 'F92672', '66D9Ef', 'BE67FF', '9e9e9e', '87ff00', 'FD971F'])
+				#F92672, #E24A33 : red (new, old)
+				#66D9EF, #348ABD : blue (old)
+				#BE67FF, #988ED5 : purple (old)
+				#9e9e9e, #b8b8b8 : gray (old)
+				#d3ff00, #FBC15E : yellow (old)
+				#87ff00, #8EBA42 : green (old)
+				#FD971F	#FF6100, #FFB5B8 : pink (old)
+
+figure.facecolor: 474747
+figure.edgecolor: 0.50
+
+grid.color: 474747
+grid.linestyle: -    # solid line
+
+#legend.facecolor	: inherit
+legend.framealpha	: 0.75
+#legend.color		: 9e9e9e
+
+savefig.facecolor   : w     # figure facecolor when saving
+savefig.edgecolor   : w    # figure edgecolor when saving
+savefig.format      : pdf      # png, ps, pdf, svg
+savefig.bbox        : tight # 'tight' or 'standard'.
+                                # 'tight' is incompatible with pipe-based animation
+                                # backends but will workd with temporary file based ones:
+                                # e.g. setting animation.writer to ffmpeg will not work,
+                                # use ffmpeg_file instead
+savefig.pad_inches  : 0.1      # Padding to be used when bbox is set to 'tight'
+savefig.jpeg_quality: 95       # when a jpeg is saved, the default quality parameter.
+savefig.transparent : False    # setting that controls whether figures are saved with a transparent background by default
+
+text.color: k
+
+
+xtick.bottom         : True   # draw ticks on the bottom side
+xtick.major.size     : 3.5      # major tick size in points
+xtick.minor.size     : 2      # minor tick size in points
+xtick.major.width    : 0.8    # major tick width in points
+xtick.minor.width    : 0.6    # minor tick width in points
+xtick.major.pad      : 3.5      # distance to major tick label in points
+xtick.minor.pad      : 3.4      # distance to the minor tick label in points
+xtick.color          : k      # color of the tick labels
+xtick.labelsize      : medium # fontsize of the tick labels
+xtick.direction      : in # direction: in, out, or inout
+xtick.minor.visible  : False # visibility of minor ticks on x-axis
+xtick.major.top      : False   # draw x axis top major ticks
+xtick.major.bottom   : True   # draw x axis bottom major ticks
+xtick.minor.top      : False   # draw x axis top minor ticks
+xtick.minor.bottom   : False   # draw x axis bottom minor ticks
+
+ytick.left           : True   # draw ticks on the left side
+ytick.right          : False  # draw ticks on the right side
+ytick.major.size     : 3.5      # major tick size in points
+ytick.minor.size     : 2      # minor tick size in points
+ytick.major.width    : 0.8    # major tick width in points
+ytick.minor.width    : 0.6    # minor tick width in points
+ytick.major.pad      : 3.5      # distance to major tick label in points
+ytick.minor.pad      : 3.4      # distance to the minor tick label in points
+ytick.color          : k      # color of the tick labels
+ytick.labelsize      : medium # fontsize of the tick labels
+ytick.direction      : in    # direction: in, out, or inout
+ytick.minor.visible  : True # visibility of minor ticks on y-axis
+ytick.major.left     : True   # draw y axis left major ticks
+ytick.major.right    : True   # draw y axis right major ticks
+ytick.minor.left     : True   # draw y axis left minor ticks
+ytick.minor.right    : True   # draw y axis right minor ticks
+
+figure.facecolor: 474747
+figure.edgecolor: 0.50

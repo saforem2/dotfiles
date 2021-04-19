@@ -1,0 +1,170 @@
+{
+  "load_extensions": {
+    "jupyter-js-widgets/extension": true,
+    "nb_conda/main": false,
+    "nbextensions_configurator/config_menu/main": true,
+    "contrib_nbextensions_help_item/main": true,
+    "collapsible_headings/main": true,
+    "search-replace/main": false,
+    "init_cell/main": true,
+    "codefolding/main": true,
+    "highlighter/highlighter": true,
+    "hide_input/main": false,
+    "notify": true,
+    "runtools/main": true,
+    "toggle_all_line_numbers/main": true,
+    "latex_envs/latex_envs": true,
+    "table_beautifier/main": false,
+    "keyboard_shortcut_editor/main": true,
+    "navigation-hotkeys/main": true,
+    "autoscroll/main": true,
+    "scroll_down/main": true,
+    "notify/notify": true,
+    "hide_input_all/main": false,
+    "execute_time/ExecuteTime": true,
+    "splitcell/splitcell": false,
+    "vim_binding/vim_binding": true,
+    "hinterland/hinterland": false,
+    "comment-uncomment/main": true,
+    "help_panel/help_panel": true,
+    "equation-numbering/main": true,
+    "spellchecker/main": false,
+    "autosavetime/main": true,
+    "qtconsole/qtconsole": true,
+    "chrome-clipboard/main": false,
+    "scratchpad/main": false,
+    "dragdrop/main": false,
+    "printview/main": true,
+    "theme_toggle": false,
+    "python-markdown/main": true,
+    "gist_it/main": false,
+    "rubberband/main": false,
+    "code_font_size/code_font_size": true,
+    "addbefore/main": false,
+    "move_selected_cells/main": true,
+    "code_prettify/code_prettify": false,
+    "zenmode/main": false,
+    "ruler/main": false,
+    "toc2/main": true,
+    "varInspector/main": true,
+    "snippets_menu/main": true,
+    "code_prettify/autopep8": false,
+    "snippets/main": true,
+    "livemdpreview/livemdpreview": true,
+    "select_keymap/main": true,
+    "freeze/main": false,
+    "hide_header/main": true,
+    "code_prettify/isort": true,
+    "load_tex_macros/main": true,
+    "nbTranslate/main": true,
+    "codemirror_mode_extensions/main": true,
+    "datestamper/main": false,
+    "mamba_gator/main": false,
+    "voila/extension": true,
+    "jupyter-matplotlib/extension": true
+  },
+  "collapsible_headings": {
+    "toggle_color": "#d3ff02",
+    "make_toggle_controls_buttons": true,
+    "shortcuts": {
+      "uncollapse": "left"
+    }
+  },
+  "autosavetime_set_starting_interval": false,
+  "Cell": {
+    "cm_config": {
+      "lineNumbers": true
+    }
+  },
+  "toggle_all_linenumbers_enable_hotkey": false,
+  "Notebook": {
+    "Header": false,
+    "Toolbar": false
+  },
+  "autoscroll_set_on_load": true,
+  "scrollDownIsEnabled": true,
+  "autoscroll_show_button": true,
+  "autoscroll_starting_threshold": "20",
+  "ruler_color": [
+    "#636363"
+  ],
+  "ruler_linestyle": [
+    "solid"
+  ],
+  "ruler_column": [
+    "80"
+  ],
+  "toc2": {
+    "number_sections": true,
+    "moveMenuLeft": true,
+    "sideBar": true,
+    "navigate_menu": true,
+    "threshold": "6",
+    "collapse_to_match_collapsible_headings": true,
+    "widenNotebook": false,
+    "colors": {
+      "on_scroll": "#c800ff",
+      "selected_highlight": "#787878",
+      "running_highlight": "#fb0055",
+      "wrapper_background": "#1c1c1c",
+      "sidebar_border": "#87ff00",
+      "navigate_text": "#eeeeee",
+      "navigate_num": "#ffffff",
+      "hover_highlight": "#454545"
+    },
+    "toc_cell": false,
+    "toc_window_display": false,
+    "skip_h1_title": true
+  },
+  "gist_it_personal_access_token": "ae4e8cf83ed83fbcd29d2c00bb9183f2c91b0840",
+  "latex_envs": {
+    "autocomplete": false,
+    "LaTeX_envs_menu_present": false,
+    "hotkeys": {
+      "equation": ""
+    },
+    "report_style_numbering": true
+  },
+  "livemdpreview": {
+    "show_side_by_side": true
+  },
+  "keys": {
+    "command": {
+      "bind": {
+        "-": "jupyter-notebook:split-cell-at-cursor",
+        "!": "jupyter-notebook:change-cell-to-heading-1",
+        "v": "jupyter-notebook:toggle-cell-output-collapsed",
+        "d,d": "jupyter-notebook:cut-cell",
+        "m": "jupyter-notebook:change-cell-to-markdown",
+        "ctrl-r": "vim-binding:restart-kernel",
+        "ctrl-q": "collapsible_headings:toggle_collapse_heading",
+        "ctrl-w": "collapsible_headings:uncollapse_heading",
+        "tab": "collapsible_headings:uncollapse_heading",
+        "shift-tab": "collapsible_headings:toggle_collapse_heading",
+        "ctrl-shift-t": "toc2:toggle-toc",
+        "alt-c": "auto:toggle-comment",
+        "cmd-o,c": "jupyter-notebook:interrupt-kernel",
+        "ctrl-o,c": "jupyter-notebook:interrupt-kernel",
+        "ctrl-0,c": "jupyter-notebook:interrupt-kernel",
+        "ctrl-c": "jupyter-notebook:interrupt-kernel"
+      },
+      "unbind": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "h",
+        "c"
+      ]
+    }
+  },
+  "zenmode_set_zenmode_on_load": false,
+  "zenmode_use_builtin_backgrounds": false,
+  "runtools": {
+    "scheduled_color": "#87ff00"
+  },
+  "autosavetime_starting_interval": "2",
+  "comment_uncomment_indent": true
+}

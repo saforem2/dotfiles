@@ -1,0 +1,126 @@
+################################################### ForwardX11 yes ControlMaster auto ControlPath ~/.ssh/master%r@%h:%p IPQoS=throughput ServerAliveInterval 60 # ServerAliveCountMax=1 PreferredAuthentications publickey,password,keyboard-interactive
+# Host login-jlse
+# Hostname login.jlse.anl.gov
+# User foremans1
+# ControlMaster auto
+# ServerAliveInterval 60
+# PreferredAuthentications publickey,password,keyboard-interactive
+#
+
+# Host *.jlse.anl.gov
+# ControlMaster auto
+# ServerAliveInterval 60
+# PreferredAuthentications publickey,password,keyboard-interactive
+#
+Host github.com 
+    AddKeysToAgent yes
+    UseKeychain yes
+    IdentityFile ~/.ssh/id_ed25519_github
+
+
+#
+Host login.mcs
+Hostname login.mcs.anl.gov
+AddKeysToAgent yes
+ForwardX11 yes
+
+    
+
+Host *.alcf.anl.gov
+    AddKeysToAgent yes
+    UseKeychain yes
+    IdentityFile ~/.ssh/id_rsa
+###################################################
+# Host cooley
+# Hostname cooley.alcf.anl.gov
+# ControlMaster auto
+# ControlPath ~/.ssh/master%r@%h:%p
+# AddKeysToAgent yes
+# ForwardX11 no
+# IPQoS=throughput
+# ServerAliveInterval 60
+# User foremans
+###################################################
+#
+###################################################
+Host theta
+Hostname theta.alcf.anl.gov
+ControlMaster auto
+ControlPath ~/.ssh/master%r@%h:%p
+AddKeysToAgent yes
+# ForwardX11 yes
+IPQoS=throughput
+ServerAliveInterval 60
+User foremans
+###################################################
+#
+###################################################
+ControlPath ~/.ssh/.control_channels/%h:%p:%r
+Host bebop
+HostName bebop.lcrc.anl.gov
+User foremans1
+IdentityFile ~/.ssh/lcrc_rsa
+###################################################
+
+###################################################
+Host login-gce
+Hostname logins.cels.anl.gov 
+ControlMaster auto
+ControlPersist yes
+ForwardX11 no
+ForwardAgent no
+LogLevel FATAL
+IPQoS=throughput
+ServerAliveInterval 60
+User foremans
+
+Host homes-gce
+Hostname homes.cels.anl.gov
+ProxyCommand ssh login-gce -q -W %h:%p
+ForwardX11 yes
+IPQoS=throughput
+ServerAliveInterval 60
+User foremans
+
+Host nomachine
+Hostname nomachine.cels.anl.gov
+ProxyCommand ssh login-gce -q -W %h:%p
+ForwardX11 yes
+User foremans
+IPQoS=throughput
+ServerAliveInterval 60
+###################################################
+#
+#
+###################################################
+Host *.cels.anl.gov
+ProxyCommand ssh login-gce -q -W %h:%p
+ForwardX11 yes
+IPQoS=throughput
+ServerAliveInterval 60
+###################################################
+
+################################################################################################
+# oneAPI DevCloud SSH config
+################################################################################################
+Host devcloud
+User u43006
+IdentityFile ~/.ssh/devcloud-access-key-43006.txt
+ProxyCommand ssh -T -i ~/.ssh/devcloud-access-key-43006.txt guest@devcloud.intel.com
+
+Host devcloud.proxy
+User u43006
+Port 4022
+IdentityFile ~/.ssh/devcloud-access-key-43006.txt
+ProxyCommand ssh -T devcloud-via-proxy
+
+# If you must route outgoing SSH connection via a corporate proxy,
+# replace PROXY_HOSTNAME and PORT below with the values provided by
+# your network administrator.
+Host devcloud-via-proxy
+User guest
+Hostname devcloud.intel.com
+IdentityFile ~/.ssh/devcloud-access-key-43006.txt
+LocalForward 4022 c009:22
+ProxyCommand nc -x PROXY_HOSTNAME:PORT %h %p
+################################################################################################

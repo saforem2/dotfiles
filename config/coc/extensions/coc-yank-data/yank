@@ -1,0 +1,1480 @@
+42def6d09d351b5a189534dcfb3470e6|file:///Users/saforem2/.jupyter/custom/custom_notexbook.css|32|22|v|css
+	rgb(51, 51, 51);
+77178c9e71b2dfcd6d1827d9760da685|file:///Users/saforem2/.jupyter/custom/custom_notexbook.css|37|29|v|css
+	rgb(56, 56, 56)
+5d6b6f6f948d400f31ff6e8cb73e9e65|file:///Users/saforem2/.jupyter/custom/custom_notexbook.css|53|34|v|css
+	var(--code-background-color)
+334c4a4c42fdb79d7ebc3e73b517e6f8|file:///Users/saforem2/.jupyter/custom/custom_notexbook.css|382|17|v|css
+	none
+b2bd4a3966cb40bcecfd992fc4aafb95|file:///Users/saforem2/.jupyter/custom/custom_notexbook.css|402|13|v|css
+	aba9a9
+f59b7efafd800e27b47a488d30615c73|file:///Users/saforem2/.jupyter/custom/custom_notexbook.css|441|24|v|css
+	FFFFFF
+cb4d5bb5282b8e8e6fae286dc18b8801|file:///Users/saforem2/.jupyter/custom/custom-2021-03-30.css|1019|1|V|css
+	
+	div#pager {
+	    opacity: 0.85;
+	    z-index: 9999;
+	}
+	
+	.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	    color: #fff;
+	    background-color: transparent;
+	    border-bottom: 2px solid #fff;
+	}
+	
+	.dropdown-menu {
+	    z-index: 999999 !important;
+	    background-color: #f57b00;
+	    opacity: 0.95;
+	}
+	
+	.dropdown-menu > li > a {
+	    color: #fff;
+	}
+	
+	.dropdown-menu > .disabled > a, .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
+	    color: rgba(255, 255, 255, 0.25);
+	}
+	
+	.navbar-nav > li > .dropdown-menu {
+	    border: none;
+	    box-shadow: none;
+	}
+	
+	div.output_wrapper {
+	    background: #eee;
+	}
+	
+	div.cell.unselected div.output_area{
+	    /* box-shadow: inset 0 0 25px #aaa; */
+	    padding: 1em 0;
+	    overflow-x: auto;
+	    transition: all 0.25s;
+	}
+	
+	div.cell.selected .output_area {
+	    /* box-shadow: inset 0 0 5px #aaa; */
+	    padding: 0.5em 0;
+	    overflow-x: auto;
+	}
+	
+	div.cell.selected .div.output_scroll {
+	    box-shadow: none;
+	}
+	
+	div.output_wrapper {
+	    margin: 0 0 1em;
+	    transition: all 0.25s;
+	}
+	
+	div.cell.selected .output_wrapper {
+	    margin: 0;
+	}
+	
+	.dataframe {
+	    background: #fff;
+	    box-shadow: 0px 1px 2px #bbb;
+	}
+	
+	.dataframe thead th, .dataframe tbody td {
+	    text-align: right;
+	    padding: 1em;
+	}
+	
+	.output, div.output_scroll {
+	    box-shadow: none;
+	}
+	
+	.rendered_html pre code {
+	    background: #f4f4f4;
+	    border: 1px solid #ddd;
+	    border-left: 3px solid #2a7bbd;
+	    border-left: 3px solid #03a9f4;
+	    color: #1c1c1c;
+	    page-break-inside: avoid;
+	    font-family: monospace;
+	    font-size: 15px;
+	    line-height: 1.6;
+	    margin-bottom: 1.6em;
+	    max-width: 100%;
+	    overflow: auto;
+	    padding: 1em 1.5em;
+	    display: block;
+	    word-wrap: break-word;
+	}
+	
+	h1, .h1 {
+	    font-size: 33px;
+	    /* font-family: "Trebuchet MS"; */
+	    font-size: 2.5em !important;
+	    color: #03a9f4 !important;
+	}
+	
+ac319fb660354b066f636b3ea5e75df3|file:///Users/saforem2/.jupyter/custom/custom-2021-03-30.css|978|1|V|css
+	
+	.navbar-default {
+	    background: none;
+	    border: none;
+	}
+	
+	.navbar-default .navbar-nav > li > a, #kernel_indicator {
+	    color: rgba(255, 255, 255, 0.25);
+	    border-bottom: 2px solid #f57b00;
+	    transition: all 0.25s;
+	}
+	
+	.navbar-default .navbar-nav > li > a:hover, #kernel_indicator:hover {
+	    border-bottom: 2px solid #fff;
+	    color: rgba(255, 255, 255, 1);
+	}
+	
+	div.input_area {
+	    border: none;
+	    border-radius: 0;
+	    background: #f7f7f7;
+	    line-height: 1.5em;
+	    margin: 0.5em 0;
+	    padding: 0;
+	}
+	
+	div.cell {
+	    transition: all 0.25s;
+	    border: none;
+	    position: relative;
+	    top: 0;
+	}
+	
+16ecf26041b50d7988f6cdef4541736b|file:///Users/saforem2/.jupyter/custom/custom-2021-03-30.css|946|1|V|css
+	.rendered_html pre code {
+	    background-color: #1c1c1c;
+	}
+	.rendered_html pre {
+	    background-color: #1c1c1c;
+	}
+	.cm-s-ipython span.cm-string {
+	    color: #ffff00 !important;
+	}
+	.rendered_html pre .rendered_html code {
+	    color: #9e9e9e;
+	    font-size: 100%;
+	}
+	.cm-s-default .cm-variable-2 {
+	    color: #03a9f4 !important;
+	}
+	
+	#notebook-container{
+	    box-shadow: none !important;
+	}
+	
+	.container {
+	    width: 80% !important;
+	}
+	
+	.notebook_app {
+	    background: #fff !important;
+	}
+443fe34eedddaa6120e92297a4a309e3|file:///Users/saforem2/.jupyter/custom/custom-2021-03-30.css|929|1|V|css
+	table{border-collapse:collapse;width:100%;}
+	td{text-align:left;padding:8px;}
+	tr:nth-child(even){background-color:#1c1c1c; color:#efefef}
+	th{background-color:#444;color:#efefef;}
+	tr:hover{background-color:gray;}
+	
+bec767d5f8cb7b2295249524a8fdc839|file:///Users/saforem2/.jupyter/custom/custom-2021-03-30.css|904|1|V|css
+	/*! CSS Used from: Embedded */
+	.dataframe tbody tr th:only-of-type{vertical-align:middle;}
+	.dataframe tbody tr th{vertical-align:top;}
+	/*! CSS Used from: Embedded */
+	.dataframe tbody tr th:only-of-type{vertical-align:middle;}
+	.dataframe tbody tr th{vertical-align:top;}
+	
+	.list_header{
+	    font-weight: bold;
+	    background-color: #212121 !important;
+	}
+07e36b84ea0e83a1d75de6a3b4bb1ebd|file:///Users/saforem2/.jupyter/custom/custom-2021-03-30.css|868|1|V|css
+	.container { width:90% !important; }
+	
+	.CodeMirror-scroll {
+	overflow: visible !important;
+	}
+	
+	.CodeMirror-vscrollbar {
+	    width: 0px !important;
+	}
+	
+	.CodeMirror-sizer {
+	    border-right-width: 0px !important;
+	}
+	
+	.CodeMirror pre.CodeMirror-line{
+	    font-size: 12pt !important;
+	}
+	
+	div.cell {
+	    transition: all 0.2s;
+	    border: none;
+	    position: relative;
+	    top: 0;
+	}
+0b0657036fdd43cd516bbd7153ef0c36|file:///Users/saforem2/.jupyter/custom/custom-2021-03-30.css|738|1|V|css
+	.btn-group > .btn,.form-control,div#header,div.navbar-collapse,div#notebook-container,div#notebook,div#notification_notebook,div#notification_kernel,li > .dropdown-menu,.dropdown-menu > li > a,.dropdown-menu > li > a:focus{color:#4080ca;border-color:#303040;background-color:#1c1c1c;}
+	.dropdown-menu > li > a:hover{background-color:#4878ca;color:#1e1e1e;}
+	.dropdown,.dropdown-menu{color:silver;background-color:#1e1e1e;}
+	.dropdown-menu .divider{height:1px;margin:8px 0;overflow:hidden;background-color:#2e2e2e;}
+	.navbar-default .navbar-nav > li > a:hover{color:silver;background-color:#5050c0;}
+	.navbar-default{background-color:#303080;}
+	.navbar-default .navbar-nav > li > a{color:#1c1c1c!important;}
+	div.input_area{background:#1e1e1e!important;}
+	div#pager{background-color:#505050!important;}
+	.nav > li > a:hover,.nav > li > a:focus{text-decoration:none;background-color:#311;color:darkgray;}
+	.nav > li > a{color:#f92672;}
+	.btn-default{color:#CCC3C3;background-color:#333d68;border-color:#787881;}
+	.btn-default:hover{color:#BFB7B7;background-color:#6a77b0;border-color:#adadad;}
+	.cm-s-ipython .CodeMirror-linenumber{color:#87ff00;background:#201C1C;}
+	.timing_area{padding:2px 5px;border:none;border-top:1px solid #303030;font-size:75%;height:auto;text-align:right!important;}
+	.ipython_tooltip{max-width:700px;background-color:#303030;border:#87ff00 1px solid;outline:none;padding:3px;margin:0px;padding-left:7px;font-family:monospace;min-height:50px;box-shadow:0px 6px 10px -1px #87ff00;border-radius:5px;}
+	.tooltipbuttons{color:red!important;}
+	.cm-fat-cursor .CodeMirror-cursor{width:auto;border:0!important;background:#ffff00;}
+	.cm-fat-cursor div.CodeMirror-cursors{z-index:1;}
+	.CodeMirror-gutters{border-right:1px solid #444;background-color:transparent!important;white-space:nowrap;}
+	div#notebook,div.CodeMirror,div.output_area pre,div.output_wrapper,div.prompt{font-family:monospace;}
+	.navbar-default .navbar-nav > li > a{color:#e6e6e6!important;font-family:auto;font-size:13px;}
+	::-webkit-scrollbar{width:1px;height:1px;}
+	.notebook_app #notebook-container{background:#1c1c1c;}
+	.notebook_app > #header{background-color:#1c1c1c;color:#b7b7b7;-webkit-box-shadow:0 6px 12px rgba(0, 0, 0, 0.3);box-shadow:0 6px 12px rgba(0, 0, 0, 0.3);}
+	/*! CSS Used keyframes */
+3ead53ab6a8ed809cc561972a7076f97|file:///Users/saforem2/.jupyter/custom/custom.css|1198|1|V|css
+	/*! CSS Used keyframes */
+ad8c7e6a9bce69c6c30a96386d969512|file:///Users/saforem2/.jupyter/custom/custom-2021-03-30.css|709|1|V|css
+	.CodeMirror-cursor{border-left:2px solid #aabcce!important;}
+d5b7b3d74092e1903aadc4d0c3caad2d|file:///Users/saforem2/.jupyter/custom/custom-2021-03-30.css|709|1|V|css
+	/* .cm-s-ipython span.cm-comment{color:#606060;} */
+	/* .cm-s-ipython span.cm-number{color:#ca6840;} */
+	/* .cm-s-ipython span.cm-property{color:#4e97ca;} */
+	/* .cm-s-ipython span.cm-keyword{color:#bf8b56;} */
+	/* .cm-s-ipython span.cm-string{color:#7a7a25;} */
+	/* .cm-s-ipython span.cm-operator{color:#afc4db;} */
+	/* .cm-s-ipython span.cm-builtin{color:#008ecd;} */
+	/* .cm-s-ipython span.cm-variable{color:#56a08b;} */
+	/* .cm-s-ipython span.cm-def{color:#87ff00;} */
+27b73cdb72389944d2955382e9681dc4|file:///Users/saforem2/.jupyter/custom/custom-2021-03-30.css|1197|1|V|css
+	div.text_cell_render,div.output_html{color:#b7b7b7;}
+	div.output_stderr{background-color:#050505;}
+	div.output_stderr pre{color:#509050;font-size:12px;}
+	.cm-s-ipython.CodeMirror{background:#191919;color:#c3c3c3;}
+	.CodeMirror{color:#b3b3b3!important;}
+	.cm-s-ipython.CodeMirror{background:#1c1c1c;color:#e0e0e0;}
+	.cm-s-ipython .CodeMirror-gutters{background:#1c1c1c;border-right:0px;}
+	.cm-s-ipython .CodeMirror-linenumber{color:#627e99;}
+	.cm-s-ipython .CodeMirror-cursor{border-left:2px solid #aabcce!important;}
+	.CodeMirror-cursor{border-left:2px solid #aabcce!important;}
+	.cm-s-default .cm-header{color:#1090f0;}
+	.cm-s-ipython span.cm-property{color:#66D9EF;}
+	.cm-s-ipython span.cm-keyword{color:#f92672!important;}
+	.cm-s-ipython span.cm-variable{color:#acadad!important;}
+	.cm-s-ipython span.cm-string{color:#ffff00!important;}
+	.cm-s-ipython span.cm-comment{color:#494949!important;}
+	.cm-s-ipython span.cm-builtin{color:#526fff!important;}
+	.cm-s-ipython span.cm-def{color:#87ff00;}
+	.cm-s-ipython span.cm-number{color:#ae81ff!important;}
+	.cm-s-ipython span.cm-operator{color:#fd971f!important;}
+	.CodeMirror-gutters{border-right:1px solid #DDD;background-color:#242424!important;white-space:nowrap;}
+	#notebook-container{background-color:#1c1c1c;box-shadow:0px 0px 0px 0px rgba(87, 87, 87, 0.2);}
+	/* div.cell.selected{border:0px solid #234!important;margin:-1px!important;} */
+	/* div.cell{border:0px solid #234!important;} */
+	.CodeMirror{background:#1c1c1c;color:#DDDDDD;}
+	.CodeMirror-gutters{background-color:#1c1c1c;}
+	.CodeMirror-cursor{border-left:1px solid #87f000!important;border-right:none;width:0;}
+	.cm-s-default .cm-header{color:#87CEEB;}
+	
+	.btn-group > .btn,.form-control,div#header,div.navbar-collapse,div#notebook-container,div#notebook,div#notification_notebook,div#notification_kernel,li > .dropdown-menu,.dropdown-menu > li > a,.dropdown-menu > li > a:focus{color:#4080ca;border-color:#303040;background-color:#1c1c1c;}
+	.dropdown-menu > li > a:hover{background-color:#4878ca;color:#1e1e1e;}
+	.dropdown,.dropdown-menu{color:silver;background-color:#1e1e1e;}
+	.dropdown-menu .divider{height:1px;margin:8px 0;overflow:hidden;background-color:#2e2e2e;}
+	.navbar-default .navbar-nav > li > a:hover{color:silver;background-color:#5050c0;}
+	.navbar-default{background-color:#303080;}
+	.navbar-default .navbar-nav > li > a{color:#1c1c1c!important;}
+	div.input_area{background:#1e1e1e!important;}
+	div#pager{background-color:#505050!important;}
+	.nav > li > a:hover,.nav > li > a:focus{text-decoration:none;background-color:#311;color:darkgray;}
+	.nav > li > a{color:#f92672;}
+	.btn-default{color:#CCC3C3;background-color:#333d68;border-color:#787881;}
+	.btn-default:hover{color:#BFB7B7;background-color:#6a77b0;border-color:#adadad;}
+	.cm-s-ipython .CodeMirror-linenumber{color:#87ff00;background:#201C1C;}
+	.timing_area{padding:2px 5px;border:none;border-top:1px solid #303030;font-size:75%;height:auto;text-align:right!important;}
+	.ipython_tooltip{max-width:700px;background-color:#303030;border:#87ff00 1px solid;outline:none;padding:3px;margin:0px;padding-left:7px;font-family:monospace;min-height:50px;box-shadow:0px 6px 10px -1px #87ff00;border-radius:5px;}
+	.tooltipbuttons{color:red!important;}
+	.cm-fat-cursor .CodeMirror-cursor{width:auto;border:0!important;background:#ffff00;}
+	.cm-fat-cursor div.CodeMirror-cursors{z-index:1;}
+	.CodeMirror-gutters{border-right:1px solid #444;background-color:transparent!important;white-space:nowrap;}
+	div#notebook,div.CodeMirror,div.output_area pre,div.output_wrapper,div.prompt{font-family:monospace;}
+	.navbar-default .navbar-nav > li > a{color:#e6e6e6!important;font-family:auto;font-size:13px;}
+	::-webkit-scrollbar{width:1px;height:1px;}
+	.notebook_app #notebook-container{background:#1c1c1c;}
+	.notebook_app > #header{background-color:#1c1c1c;color:#b7b7b7;-webkit-box-shadow:0 6px 12px rgba(0, 0, 0, 0.3);box-shadow:0 6px 12px rgba(0, 0, 0, 0.3);}
+850f686d4b90cd2899ff608b094d83b4|file:///Users/saforem2/.jupyter/custom/custom.css|2063|18|v|css
+	f4f4f4
+79400385bd643a3857b9a3b51b8cd899|file:///Users/saforem2/.jupyter/custom/custom.css|1|1|v|css
+	1c1c1c
+fb4ce2b748991cea88748a40521cb98f|file:///Users/saforem2/.jupyter/custom/custom.css|7|1|V|css
+	@import url("fonts.css");
+b403b9d2f0fbae0c8753ad318fb1511d|file:///Users/saforem2/.jupyter/custom/custom.css|969|14|v|css
+	fonts.css
+b280cfcc23c058f5088fca2bd738d6d3|file:///Users/saforem2/.jupyter/custom/custom.css|84|23|v|css
+	var(--background-color)
+95758faab59b1e9e2fd15b5ad3fcf795|file:///Users/saforem2/.jupyter/custom/custom.css|147|8|V|css
+	    /* background-color: #d9edf7; */
+262da8014d7d6e3c30cd4b6a9bb7a338|file:///Users/saforem2/.jupyter/custom/custom.css|440|23|v|css
+	#FFFFFF
+cbcb7a8effc070eebb26ff1062e6f454|file:///Users/saforem2/.jupyter/custom/custom.css|629|23|v|css
+	var(--txbk-content-mono-bgcolor)
+09641b0e0228208dcf9ac52e1fdf9166|file:///Users/saforem2/.jupyter/custom/custom.css|970|1|V|css
+	@import "custom-2021-03-30.css";
+9991d480111061756bbd7efc156da94d|file:///Users/saforem2/.jupyter/custom/custom-2021-03-30.css|717|1|V|css
+	.cm-s-ipython .CodeMirror-cursor{border-left:2px solid #aabcce!important;}
+	.CodeMirror-cursor{border-left:2px solid #aabcce!important;}
+bd976b3d9e06572bda3b2635d91012bc|file:///Users/saforem2/.jupyter/custom/custom-2021-03-30.css|735|1|V|css
+	.CodeMirror-cursor{border-left:1px solid #87f000!important;border-right:none;width:0;}
+6643846b71ffebfbb3b8558b4def583e|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|574|73|V|tex
+	         \item \texttt{Loss function}, \(\mathcal{L}_{\theta}(\xi^{\prime},\xi,
+ab579fc984a5dfd26c123d28e75cf025|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|578|10|V|tex
+	         \item \texttt{Batch of initial states}, \(x\)
+6ec5aee777621f1c5c63e2bb2d9d3697|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|576|10|V|tex
+	            A(\xi^{\prime}|\xi))\)
+097e4c1e2052dca62305fc6855d64b16|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|576|13|V|tex
+	         \item \texttt{Target distribution,} \(p_{t}(x)\propto e^{-\gamma_{t} U(x)}\)
+22ce53d44a35f0a5120ddd507d1fb05c|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|574|1|V|tex
+	         \item \texttt{Loss function}, \(\mathcal{L}_{\theta}(\xi^{\prime},\xi,
+	            A(\xi^{\prime}|\xi))\)
+ee5e5c003694e7cd5ae404923c665edb|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|590|21|v|tex
+	\ell
+b70d2d622b4e254902e8aa4f221ffd0c|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|591|18|v|tex
+	propose
+a88013f0eafd683c7a360cfd7aac188d|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|591|18|v|tex
+	leapfrog layer (proposal) 
+1ffd9e753c8054cc61456ac7fac1ac89|file:///Users/saforem2/.jupyter/custom/custom.css|1014|42|v|css
+	black
+c05bbcb83f96910b9254e96d2f4156a7|file:///Users/saforem2/.jupyter/custom/custom.css|1516|73|v|css
+	E6E6E6
+d508fe45cecaf653904a0e774084bb5c|file:///Users/saforem2/.jupyter/custom/custom.css|1010|73|v|css
+	white
+f3283fadf475bc4855168ef14a341b5c|file:///Users/saforem2/.jupyter/custom/custom.css|1011|67|v|css
+	f7f7f7
+8dfea12d08a0655f2deeed428041753b|file:///Users/saforem2/.jupyter/custom/custom.css|1091|38|v|css
+	fcf8e3
+be73c292651d04f0a2420cb6467e0322|file:///Users/saforem2/.jupyter/custom/custom.css|1096|160|v|css
+	f5f5f5
+1a100d2c0dab19c4430e7d73762b3423|file:///Users/saforem2/.jupyter/custom/custom.css|1096|93|v|css
+	333333
+5b1b68a9abf4d2cd155c81a9225fd158|file:///Users/saforem2/.jupyter/custom/custom.css|1116|114|v|css
+	555555
+315b2a4dfb767ae8c5caf506ed2703ab|file:///Users/saforem2/.jupyter/custom/custom.css|1128|49|v|css
+	e6e6e6
+162f40ec38a6db41d135ac86e830dac6|file:///Users/saforem2/.jupyter/custom/custom.css|1128|31|v|css
+	background-color
+0e9724415fe777083efa252358fc1bcc|file:///Users/saforem2/.jupyter/custom/custom.css|1131|137|v|css
+	d4d4d4
+e93e56a0e29c0914a16a892ada43ba7c|file:///Users/saforem2/.jupyter/custom/custom.css|1|1|v|css
+	e5e5e5
+9728a4c86cfea37bba7085d655c2d4dc|file:///Users/saforem2/.jupyter/custom/custom.css|1140|68|v|css
+	262626
+cd87cd5ef753a06ee79fc75dc7cfe66c|file:///Users/saforem2/.jupyter/custom/custom.css|1156|80|v|css
+	eeeeee
+1c1ccd7ceabd137b0cc48e2cab3ef4b0|file:///Users/saforem2/.jupyter/custom/custom.css|1192|35|v|css
+	f8f8f8
+b46861889a58cda4472b1b45420da708|file:///Users/saforem2/.jupyter/custom/custom.css|1192|56|v|css
+	e7e7e7
+d4a973e303ec37692cc8923e3148eef7|file:///Users/saforem2/.jupyter/custom/custom.css|1258|22|v|css
+	8080
+be75abee111ebd2f53c8a22095fd30a3|file:///Users/saforem2/.jupyter/custom/custom.css|1259|49|v|css
+	e6e6
+36a310c138c6c8e313bc28b6abe25a19|file:///Users/saforem2/.jupyter/custom/custom.css|1260|46|v|css
+	6e6e6
+54b800714448df0f4cc9fd8e1cdb9a32|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|246|50|v|tex
+	network12
+46b70ca660bf1979e86b8fd192843cdb|file:///Users/saforem2/l2hmc_draft/training.tex|14|1|V|tex
+	\begin{algorithm}[htpb]%
+	  \SetAlgoSkip{bigskip}%
+	  \SetVlineSkip{20pt}
+	  % \SetAlgoRefName{training}
+	  \SetAlgoLined%
+	  \SetAlgoVlined%
+	  \SetKwProg{Fn}{def}{\string:}{}%
+	  \SetKwFunction{Range}{range}%
+	  \SetKwFor{For}{\color{blue}\texttt{for}}{\string:}{}\color{black}%
+	  \SetKwIF{If}{ElseIf}{Else}{if}{:}{elif}{else:}{}%
+	  \SetKwFor{While}{while}{:}{fintq}%
+	  \SetKwInOut{Input}{\color{red}{\texttt{input}}\color{black}}%
+	  \SetKwInOut{Output}{\color{red}{\texttt{output}}\color{black}}%
+	  \AlgoDontDisplayBlockMarkers\SetAlgoNoEnd%
+	  \DontPrintSemicolon%
+	  \caption{Training procedure}%
+	  \Input{%
+	    {}\\
+	    \begin{enumerate}
+	      \item \texttt{Target distribution,} \(p_{t}(x)\propto e^{-\beta_{t} U(x)}\)
+	      \item \texttt{Loss function}, \(\mathcal{L}_{\theta}(\xi^{\prime},\xi,
+	        A(\xi^{\prime}|\xi))\)
+	      \item \texttt{Learning rate schedule}, \({\{\alpha_{t}\}}_{t=0}^{N_{\mathrm{train}}}\)
+	      \item \texttt{Annealing schedule}, \({\{\beta_{t}\}}_{t=0}^{N_{\mathrm{train}}}\)
+	      \item \texttt{Batch of initial states}, \(x\)
+	    \end{enumerate}
+	  }\;%
+	  \texttt{Initialize weights} \(\theta\)\;%
+	  {}\;
+	  \For{\(0 \leq t < N_{\mathrm{train}}\)}{%
+	    {}\;
+	    \(p_{t}(x)\propto e^{-\beta_{t}U(x)}\)\;%
+	    \texttt{resample} \(v\sim\mathcal{N}(0, \mathbbm{1})\)\;%
+	    \texttt{resample} \(d\sim\mathcal{U}(+,-)\)\;%
+	    \texttt{construct} \(\xi \equiv (x, v, d)\)\;%
+	    {}\;%
+	    \For{\(0 \leq \ell < N_{\mathrm{LF}}\)}{%
+	      \texttt{update} \(\xi^{\prime}\leftarrow\mathbf{FL}_{\ell}^{\pm}\xi\)
+	    }\;
+	    \(A(\xi^{\prime}|\xi) =%
+	      \min\left\{1,\frac{p(\xi^{\prime})}{p(\xi)}\left|\frac{\partial%
+	      \xi^{\prime}}{\partial \xi^{T}}\right|\right\}\)\;
+	    {}\;
+	    \(\mathcal{L}\leftarrow \mathcal{L}_{\theta}(\xi^{\prime},\xi,%
+	      A(\xi^{\prime}|\xi))\)\; 
+	      {}\;
+	    \(\theta\ \leftarrow\ \theta-\alpha_t \nabla_{\theta} \mathcal{L}\)\;
+	    {}\;
+	    \(x_{t+1} \leftarrow%
+	      \begin{cases}%
+	        x^{\prime} &\mbox{with probability } A(\xi^{\prime}|\xi) \\
+	        x &\mbox{with probability } (1 - A(\xi^{\prime}|\xi)).%
+	      \end{cases}%
+	      \)\;%
+	    }\;
+	    \caption{\label{algorithm:training}Training algorithm}
+	\end{algorithm}
+d9221937e8b7a06d8a64038246ff38c2|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|593|10|V|tex
+	         \item \texttt{Learning rate schedule}, \({\{\alpha_{t}\}}_{t=0}^{N_{\mathrm{train}}}\)
+c77588f5e5cbb546a512c6de303f74c0|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|594|10|V|tex
+	         \item \texttt{Annealing schedule}, \({\{\gamma_{t}\}}_{t=0}^{N_{\mathrm{train}}}\)
+ad9492c4df1b17f126bff08a75fe9ef7|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/new/iclr2021_conference.tex|551|1|V|tex
+	\begin{algorithm}[htpb]%
+	   \SetAlgoLined%
+	   \SetAlgoVlined%
+	   \SetKwProg{Fn}{def}{\string:}{}%
+	   \SetKwFunction{Range}{range}%
+	   \SetKwFor{For}{\color{blue}\textbf{\texttt{for}}}{\string:}{}\color{black}%
+	   \SetKwIF{If}{ElseIf}{Else}{if}{:}{elif}{else:}{}%
+	   \SetKwFor{While}{while}{:}{fintq}%
+	   \SetKwInOut{Input}{\color{red}{\textbf{\texttt{input}}}\color{black}}%
+	   \SetKwInOut{Output}{\color{red}{\textbf{\texttt{output}}}\color{black}}%
+	   \AlgoDontDisplayBlockMarkers\SetAlgoNoEnd%
+	   \DontPrintSemicolon%
+	   \caption{\label{alg:training_algorithm}Training procedure}%
+	   \Input{%
+	         %(1.) \texttt{Target distribution,} \(p_{t}(x)\propto e^{-\beta_{t} U(x)}\)
+	         %(2.) \texttt{Loss function}, \(\mathcal{L}_{\theta}(\xi^{\prime},\xi,
+	         %   A (\xi^{\prime}|\xi))\)
+	         %(3.) \texttt{Learning rate schedule}, \({\{\alpha_{t}\}}_{t=0}^{N_{\mathrm{train}}}\)
+	         %(4.) \texttt{Annealing schedule}, \({\{\gamma_{t}\}}_{t=0}^{N_{\mathrm{train}}}\)
+	         %(5.) \texttt{Batch of initial states}, \(x\)
+	      % {}\\
+	      \begin{enumerate}
+	         \item \texttt{Loss function}, \(\mathcal{L}_{\theta}(\xi^{\prime},\xi,
+	            A(\xi^{\prime}|\xi))\)
+	         \item \texttt{Batch of initial states}, \(x\)
+	         \item \texttt{Learning rate schedule}, \({\{\alpha_{t}\}}_{t=0}^{N_{\mathrm{train}}}\)
+	         \item \texttt{Annealing schedule}, \({\{\gamma_{t}\}}_{t=0}^{N_{\mathrm{train}}}\)
+	         \item \texttt{Target distribution,} \(p_{t}(x)\propto e^{-\gamma_{t} S_{\beta}(x)}\)
+	      \end{enumerate}
+	   }%
+	   \texttt{Initialize weights} \(\theta\)\;
+	   % {}\;
+	   \For{\(0 \leq t < N_{\mathrm{train}}\)}{%
+	      % {}\;
+	      \texttt{update } \(p_{t}(x)\propto e^{-\gamma_{t}S_{\beta}(x)}\)\;
+	      \texttt{resample } \(v\sim\mathcal{N}(0, \mathbbm{1})\)\;
+	      \texttt{resample } \(d\sim\mathcal{U}(+,-)\)\;
+	      \texttt{construct } \(\xi_{0} \equiv (x_{0}, v_{0}, d_{0})\)\;
+	      % {}\;
+	      \For{\(0 \leq k < N_{\mathrm{LF}}\)}{%
+	         \texttt{propose (leapfrog layer) } \(\xi_{k}^{\prime\prime}\leftarrow \xi_{k}\)
+	         % \texttt{propose } \(\xi_{k}^{\prime}\leftarrow\mathbf{FL}_{k}^{\pm}\xi_{k}\)
+	      }
+	      \texttt{compute } \(A(\xi^{\prime}|\xi) =%
+	      \min\left\{1,\frac{p(\xi^{\prime})}{p(\xi)}\left|\frac{\partial%
+	      \xi^{\prime}}{\partial \xi^{T}}\right|\right\}\)\;
+	      % {}\;
+	      \texttt{update } \(\mathcal{L}\leftarrow \mathcal{L}_{\theta}(\xi^{\prime},\xi,%
+	      A(\xi^{\prime}|\xi))\)\;
+	      % {}\;
+	      \texttt{backprop } \(\theta\ \leftarrow\ \theta-\alpha_t \nabla_{\theta} \mathcal{L}\)\;
+	      % {}\;
+	      \texttt{assign } \(x_{t+1} \leftarrow
+	      \begin{cases}
+	         x^{\prime} &\mbox{with probability } A(\xi^{\prime}|\xi) \\
+	         x &\mbox{with probability } (1 - A(\xi^{\prime}|\xi)).%
+	      \end{cases}%
+	      \)\;
+	   }\;
+	\end{algorithm}%
+66aebf6458dd9235d054c9d4d8611cbc|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|606|62|v|tex
+	\prime
+92d61dc97e97ba4cf66a4c6eff059c63|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|627|1|V|tex
+	\begin{algorithm}[htpb]%
+	   \SetAlgoLined%
+	   \SetAlgoVlined%
+	   \SetKwProg{Fn}{def}{\string:}{}%
+	   \SetKwFunction{Range}{range}%
+	   \SetKwFor{For}{\color{blue}\textbf{\texttt{for}}}{\string:}{}\color{black}%
+	   \SetKwIF{If}{ElseIf}{Else}{if}{:}{elif}{else:}{}%
+	   \SetKwFor{While}{while}{:}{fintq}%
+	   \SetKwInOut{Input}{\color{red}{\textbf{\texttt{input}}}\color{black}}%
+	   \SetKwInOut{Output}{\color{red}{\textbf{\texttt{output}}}\color{black}}%
+	   \AlgoDontDisplayBlockMarkers\SetAlgoNoEnd%
+	   \DontPrintSemicolon%
+	   \caption{\label{alg:training_algorithm}Training procedure}%
+	   \Input{%
+	         %(1.) \texttt{Target distribution,} \(p_{t}(x)\propto e^{-\beta_{t} U(x)}\)
+	         %(2.) \texttt{Loss function}, \(\mathcal{L}_{\theta}(\xi^{\prime},\xi,
+	         %   A (\xi^{\prime}|\xi))\)
+	         %(3.) \texttt{Learning rate schedule}, \({\{\alpha_{t}\}}_{t=0}^{N_{\mathrm{train}}}\)
+	         %(4.) \texttt{Annealing schedule}, \({\{\gamma_{t}\}}_{t=0}^{N_{\mathrm{train}}}\)
+	         %(5.) \texttt{Batch of initial states}, \(x\)
+	      % {}\\
+	      \begin{enumerate}
+	         \item \texttt{Loss function}, \(\mathcal{L}_{\theta}(\xi^{\prime},\xi,
+	            A(\xi^{\prime}|\xi))\)
+	         \item \texttt{Batch of initial states}, \(x\)
+	         \item \texttt{Learning rate schedule}, \({\{\alpha_{t}\}}_{t=0}^{N_{\mathrm{train}}}\)
+	         \item \texttt{Annealing schedule}, \({\{\gamma_{t}\}}_{t=0}^{N_{\mathrm{train}}}\)
+	         \item \texttt{Target distribution,} \(p_{t}(x)\propto e^{-\gamma_{t} S_{\beta}(x)}\)
+	      \end{enumerate}
+	   }%
+	   \texttt{Initialize weights} \(\theta\)\;
+	   % {}\;
+	   \For{\(0 \leq t < N_{\mathrm{train}}\)}{%
+	      % {}\;
+	      \texttt{update:} \(p_{t}(x)\propto e^{-\beta_{t}U(x)}\)\;
+	      \texttt{resample:} \(v\sim\mathcal{N}(0, \mathbbm{1})\)\;
+	      \texttt{resample:} \(d\sim\mathcal{U}(+,-)\)\;
+	      \texttt{construct:} \(\xi \equiv (x, v, d)\)\;
+	      % {}\;
+	      \For{\(0 \leq \ell < N_{\mathrm{LF}}\)}{%
+	         \texttt{propose:} \(\xi_{\ell}^{\prime}\leftarrow\mathbf{FL}_{\ell}^{\pm}\xi_{\ell}\)
+	      }
+	      \texttt{compute:} \(A(\xi^{\prime}|\xi) =%
+	      \min\left\{1,\frac{p(\xi^{\prime})}{p(\xi)}\left|\frac{\partial%
+	      \xi^{\prime}}{\partial \xi^{T}}\right|\right\}\)\;
+	      % {}\;
+	      \texttt{update:} \(\mathcal{L}\leftarrow \mathcal{L}_{\theta}(\xi^{\prime},\xi,%
+	      A(\xi^{\prime}|\xi))\)\;
+	      % {}\;
+	      \texttt{backprop:} \(\theta\ \leftarrow\ \theta-\alpha_t \nabla_{\theta} \mathcal{L}\)\;
+	      % {}\;
+	      \texttt{assign:} \(x_{t+1} \leftarrow
+	      \begin{cases}
+	         x^{\prime} &\mbox{with probability } A(\xi^{\prime}|\xi) \\
+	         x &\mbox{with probability } (1 - A(\xi^{\prime}|\xi)).%
+	      \end{cases}%
+	      \)\;
+	   }\;
+	\end{algorithm}%
+ddba433899a6ff29d02d3407c7260767|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/new/iclr2021_conference.tex|532|66|v|tex
+	ldots
+8c8e31bbe82ae1607a35e802ca03f695|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|303|22|v|tex
+	U (1)
+9d998e1be72b18e6f2c6dacaeee7dd7b|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|72|14|V|tex
+	\iclrfinalcopy% Uncomment for camera-ready version, but NOT for submission.
+5f1dc4771dd72284f804c604d938c6d0|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|53|1|V|tex
+	%\title{Neural Transformations for \\Efficient Topological Mixing}
+6ff35b6cdb85cb0437280f5bf232c8c3|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/dynamics/gauge_dynamics.py|889|1|V|python
+	        S, T, Q = self._call_vnet((x, grad, t), step, training)
+f9df310a3ebeeda5a924b59628cac7c5|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/dynamics/gauge_dynamics.py|890|44|v|python
+	, t)
+e50bf925f2049a7745306ccfadfe0119|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/dynamics/gauge_dynamics.py|1025|1|V|python
+	        S, T, Q = self._call_xnet((x, state.v, t), m, step, training, first)
+87896ae99cc8e47cfe144008b9d7800c|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/dynamics/gauge_dynamics.py|1067|1|V|python
+	        S, T, Q = self._call_vnet((x, grad, t), step_r, training)
+222b1af76f815cd6756feef24821a5e6|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/dynamics/gauge_dynamics.py|1134|1|V|python
+	        S, T, Q = self._call_vnet((x, grad), step, training)
+d7eeb425e7451fa984cbabea384f5417|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/dynamics/gauge_dynamics.py|1201|1|V|python
+	        t = self._get_time(step, tile=tf.shape(x)[0])
+d470cfb1582f9038e269d11104418f30|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/dynamics/base_dynamics.py|933|1|V|python
+	        S, T, Q = self.vnet((x, grad, t), training)
+d7cb2f5eb1553feec47a87c77b6434ea|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/dynamics/base_dynamics.py|1005|1|V|python
+	        S, T, Q = self.xnet((m * x, state.v, t), training)
+27802613cac29161cf3f47999b225f7d|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/dynamics/base_dynamics.py|1035|1|V|python
+	        t = self._get_time(step_r, tile=tf.shape(x)[0])
+0ccb88f1e415f96fd1890b0ba527c1f3|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/dynamics/gauge_dynamics.py|874|1|V|python
+	            return xnet((x, v, t), training)
+fe25e4f2f53b939dcfe9967c5670202a|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/dynamics/gauge_dynamics.py|877|1|V|python
+	            return xnet[0]((x, v, t), training)
+c637506e8be998b5ea724c0eb9ffb126|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/dynamics/gauge_dynamics.py|879|1|V|python
+	        return xnet[1]((x, v, t), training)
+ed0ca01d89694785db520fac4bdf8c47|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/dynamics/gauge_dynamics.py|819|1|V|python
+	            S, T, Q = self.xnet((_x, v, t), training)
+586e0e0f9e36888c42db2fef1e03b9fe|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/dynamics/gauge_dynamics.py|823|1|V|python
+	            S, T, Q = xnet((x, v, t), training)
+2c04f98759d784b2d79bd72e8df2457c|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.bib|50|8|v|bib
+	       
+7bb0edd98f22430a03b67f853e83c2ca|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.bib|51|8|v|bib
+	        
+0cf31b2c283ce3431794586df7b0996d|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.bib|53|12|v|bib
+	    
+a127fd1f86e4ab650f2216f09992afa4|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.bib|54|10|v|bib
+	      
+41b394758330c83757856aa482c79977|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.bib|55|6|v|bib
+	          
+92a2b5cb9c6906035c2864fa225e1940|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.bib|1|2|v|bib
+	article
+2a4c5db84172034f85d0fa21c676b9fd|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|424|1|V|tex
+	   \begin{subfigure}{\textwidth}
+	      \centering
+	      \includegraphics[width=0.8\textwidth]{figures/topological_freezing_anl_blue_wide.pdf}
+	      \caption{\label{fig:topological_freezing}Topological charge \(\mathcal{Q}_{\mathbb{Z}}\) vs MC
+	      step for both HMC (black line) and the trained model (blue line).}% for HMC (black line), and trained model (blue line)}
+	   \end{subfigure}
+0179a9d1bb65fd7cba95eb602eb44231|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|422|8|v|tex
+	subfigure
+bb520187305b981d60edb13634b4d6be|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|422|21|v|tex
+	{\textwidth}
+cc0d9ae3710eaed508b5b193faeadd2e|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|444|1|V|tex
+	      \includegraphics[width=0.8\textwidth]{figures/plaqsf_1758.pdf}
+2612aa892d962d6f8056b195ca6e550d|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|444|60|v|tex
+	1758
+ea12650eec0bbf7cbfff16498a788880|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|451|1|V|tex
+	      \includegraphics[width=0.8\textwidth]{figures/extras/hwf.pdf}
+9b3ad52dbb3dae977afecfc19ce358a7|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|458|1|V|tex
+	      \includegraphics[width=0.8\textwidth]{figures/sinQf_1755.pdf}
+d8d31bd778da8bdd536187c36e48892b|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|459|59|v|tex
+	1755
+27353006cfd751d26221e04a7928034d|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|452|53|v|tex
+	extras
+8cd1b9172d3d110c60d90b72cd90c994|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|459|1|V|tex
+	      \includegraphics[width=0.8\textwidth]{figures/sinQf_2202.pdf}
+	      \caption{\label{fig:sinQf}The real-valued topological charge, \(\mathcal{Q}_{\mathbb{R}}\) at intermediate leapfrog layers.}%
+a3e5276f9c00fe3cd09b2f229647a4ca|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|446|1|V|tex
+	      \includegraphics[width=0.8\textwidth]{figures/plaqsf_2228.pdf}
+	      \caption{\label{fig:plaqsf}Change in the average plaquette, \(\langle x_{P}-x_{P}^{*}\rangle\) at intermediate leapfrog layers.}
+b6a4dcb73777a6743a09c53c96bc159c|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|451|13|V|tex
+	      \align[
+ee7af618748d8491b52fa1bccbd875ef|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|451|11|V|tex
+	      \left
+2e1ed99e4aec7198b264ac7908e38b64|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|429|16|v|tex
+	htpb
+46d5b982c64733b1ad017c06cc79ea29|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|444|45|v|tex
+	figures/plaqsf_1758.pdf
+a9480d99287998dacd0a18093787482a|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|452|53|v|tex
+	/hwf.pdf
+03717bcddedd859a41e0485ea9879d62|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|459|53|v|tex
+	sinQf_1755.pdf
+786bdf0b68846bffb04d4307ff13198f|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|444|68|v|tex
+	0509
+6b56f24ce6b8950b29097b5222c5c5b8|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|452|60|v|tex
+	/hwf_0510.pdf}
+938884bc9cf7130a338af057ca7f4353|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|459|61|V|tex
+	      \includegraphics[width=\textwidth]{figures/ridgeplots/sinQf_0510.pdf}
+c377f815f44ef7f0faf3dc2565db52fe|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|459|61|v|tex
+	sinQf_0510.pdf
+974accd12d55b389420335bbf06f8e17|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|459|67|v|tex
+	0548
+0df0c75b62a46dc37478b41a0b1b26e5|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|452|65|v|tex
+	0549
+9b7de329e29300a138ed67f0916e3c74|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|444|68|v|tex
+	0612
+d0c167c70cbe3d45877b023f760eb753|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|444|68|v|tex
+	0640
+ff1e1ec06b812e935f5875c40924d7fc|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|452|65|v|tex
+	0641
+bed99b2d12bfebe7989e9e96500c2ae7|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|431|1|V|tex
+	   %
+	   % \begin{subfigure}{\textwidth}
+	   %    \centering
+	   %    \includegraphics[width=0.8\textwidth]{figures/topological_freezing_anl_blue_wide.pdf}
+	   %    \caption{\label{fig:topological_freezing}Topological charge \(\mathcal{Q}_{\mathbb{Z}}\) vs MC
+	   %    step for both HMC (black line) and the trained model (blue line).}% for HMC (black line), and trained model (blue line)}
+	   % \end{subfigure}
+	   %
+	   % \hfill
+	   %
+fee4dfb013b3a4ae37920e949580a1e5|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|429|1|V|tex
+	\begin{figure}[htpb]
+	   \centering
+	   \begin{subfigure}[h]{0.32\textwidth}
+	      % \centering
+	      % \includegraphics[width=0.8\textwidth]{figures/plaqsf_1758.pdf}
+	      \includegraphics[width=\textwidth]{figures/ridgeplots/plaqsf_1230.pdf}
+	      \caption{\label{fig:plaqsf}Change in the average plaquette, \(\langle x_{P}-x_{P}^{*}\rangle\) at intermediate leapfrog layers.}
+	   \end{subfigure}
+	   %
+	   \hfill
+	   \begin{subfigure}[h]{0.32\textwidth}
+	      % \centering
+	      % \includegraphics[width=0.8\textwidth]{figures/extras/hwf.pdf}
+	      \includegraphics[width=\textwidth]{figures/ridgeplots/hwf_1230.pdf}
+	      \caption{\label{fig:hwf}The readjusted energy, \(\mathcal{H}-\sum\log|\mathcal{J}|\), of the model at intermediate leapfrog layers.}
+	   \end{subfigure}
+	   \hfill
+	   \begin{subfigure}[h]{0.32\textwidth}
+	      % \centering
+	      % \includegraphics[width=0.8\textwidth]{figures/sinQf_1755.pdf}
+	      \includegraphics[width=\textwidth]{figures/ridgeplots/sinQf_1230.pdf}
+	      \caption{\label{fig:sinQf}The real-valued topological charge, \(\mathcal{Q}_{\mathbb{R}}\) at intermediate leapfrog layers.}%
+	   \end{subfigure}
+	\end{figure}
+c0e471621c9d978d2b104172dcfe0fcc|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|457|1|V|tex
+	      % \centering
+21c498b7916f71fa0cccbefbbdc8ed25|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|457|1|V|tex
+	      % \includegraphics[width=0.8\textwidth]{figures/plaqsf_1758.pdf}
+4122cb13c7a474c1976c9706ae36521d|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|457|68|v|tex
+	1230
+8b24e15946c00ece41d93fdf334d78b3|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|472|67|v|tex
+	1230.pdf
+f3eb62ae0be8ad577371476ddcb8b175|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|438|1|V|tex
+	   \hfill
+bcf1b6ce1931744d96555b9a125a9222|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|499|15|v|tex
+	iclr2021_conference
+8da96250d05a49a3289a466c7a3240fd|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.sty|10|1|V|tex
+	%             \documentclass{article}
+	%             \usepackage{iclr14submit_e,times}
+8611448f0e06c44ca10be20a5f1d1cd5|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|29|1|V|tex
+	%             \documentclass{article}
+db486202269bf08c925f3224b6f63daa|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|499|1|V|tex
+	Results presented in this research were obtained using the Python \citep{van1995python}, programming language and its many data science libraries \citep{matplotlib,numpyharris2020array,tensorflow2015-whitepaper,seaborn_michael_waskom_2017_883859,ipython4160251}
+11f68c1fcc97857fab8acd145f58ec5e|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|500|212|v|tex
+	seaborn_michael_waskom_2017_883859
+f5a08a2800c1c9ef05a5dfe62e8bced9|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|31|1|V|tex
+	% \usepackage{iclr14submit_e,times}
+aa33451da4827e9bd90b3c408f7d7dce|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|296|21|v|tex
+	lattice
+33f386ccdd061acb79fe7da5cca65943|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|296|21|v|tex
+	latt_gauge_theory
+4e37dfa196272d31b7cf1a2b90f11dd7|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|605|20|v|tex
+	alg:training
+f29ba09a246bc99dd10e37bdb7e164ae|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|605|24|v|tex
+	training_algorithm
+1a7dac3a3486ea82d51612b6aeb55de3|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|458|19|V|tex
+	% \begin{figure}[htpb]
+	%    \centering
+	%    \begin{subfigure}[h]{0.32\textwidth}
+	%       \includegraphics[width=\textwidth]{figures/ridgeplots/plaqsf_0640.pdf}
+	%       \caption{\label{fig:plaqsf}Change in the average plaquette, \(\langle x_{P}-x_{P}^{*}\rangle\) at intermediate leapfrog layers.}
+	%    \end{subfigure}
+	%    %
+	%    \hfill
+	%    \begin{subfigure}[h]{0.32\textwidth}
+	%       % \centering
+	%       % \includegraphics[width=0.8\textwidth]{figures/extras/hwf.pdf}
+	%       \includegraphics[width=\textwidth]{figures/ridgeplots/hwf_0641.pdf}
+	%       \caption{\label{fig:hwf}The readjusted energy, \(\mathcal{H}-\sum\log|\mathcal{J}|\), of the model at intermediate leapfrog layers.}
+	%    \end{subfigure}
+	%    \hfill
+	%    \begin{subfigure}[h]{0.32\textwidth}
+	%       % \centering
+	%       % \includegraphics[width=0.8\textwidth]{figures/sinQf_1755.pdf}
+	%       \includegraphics[width=\textwidth]{figures/ridgeplots/sinQf_0640.pdf}
+	%       \caption{\label{fig:sinQf}The real-valued topological charge, \(\mathcal{Q}_{\mathbb{R}}\) at intermediate leapfrog layers.}%
+	%    \end{subfigure}
+	% \end{figure}
+6a2c1cb5201926b84f09977a3f1815ed|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|42|16|V|tex
+	\usepackage{microtype}
+3d452bb5ee84a9e91fb61008ede354de|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|3|1|V|tex
+	\usepackage{iclr2021_conference,times}
+70789b3a7360379ad4065548078c3021|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|90|1|V|tex
+	% \section{\label{sec:introduction}Introduction}
+	% \color{red}{TODO:\@ Complete introduction}\color{black}
+	%\section{TODO}
+	%\begin{enumerate}
+	%   \item Instead of using a time step to vary the network inputs, we use completely different networks for each leapfrog
+	%      step in our trajectory \textcolor{blue}{\(\ast\)}. \marginpar{\textcolor{blue}{\(\ast\) WIP}}
+	%   \item Explain that ``instead of using \(\|x^{\prime}-x\|\), in \(\mathcal{L}_{\theta}\) we use \ldots''
+	%   \item Remove ``During training we maintain a buffer of \(M=2048\)\ldots'' from \Secref{sec:maincontributions}
+	%   %\item Combine \((5.)\), \((6.)\), \((7.)\) in \Secref{sec:maincontributions}
+	%   \item Remove \Eqref{eq:wilsonaction}, combine with \(p_{t}(x)\) at the end of \Secref{sec:annealing}, and move
+	%      inline. \textcolor{blue}{\(\ast\)}\marginpar{\textcolor{blue}{\(\ast\) WIP}}
+	%   \item Explain \(\mathcal{Q}_{\mathbb{Z}}\) is a physical quantity (winding number), explain we want to maximize
+	%      difference but need continuous variable for training, hence \(\mathcal{Q}_{\mathbb{R}}\)
+	%   \item Change notation for lattice gauge theory, \(\varphi_{\mu}(x)\rightarrow x_{\mu}(n)\) to be consistent with
+	%      \Secref{sec:l2hmc}.\marginpar{\textcolor{red}{\(\checkmark\) done}}
+	%   \item Emphasize efforts on interpretability, analogy with understanding intermediate layers/structures in
+	%      conv/fully-connected network.
+	%  \item Don't need to include details about annealing schedule (save space).
+	%  \item Instead of splitx figure, re-draw network diagram showing inputs/outputs and various layers. ``Generalized leapfrog''.
+	%  \item \textbf{``Leapfrog layer''}: Show network diagram for a single leapfrog layer, indicate that each leapfrog step uses a separate leapfrog layer, explain how "Full-step position update, etc." are a single leapfrog layer with  index \(k\).
+	%  
+	%\end{enumerate}
+554a17105d1ccc9afe84f7c51dc31cbb|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|172|38|v|tex
+	pasarica2010adaptively
+391f1eab5c61af04d244e50f7d5b9efe|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|168|8|v|tex
+	10.2307/24308995
+0ff1eb87d3b745d75686c6c78d4bc3b2|file:///Users/saforem2/site/config/_default/menus.toml|35|17|v|conf
+	cv.pdf
+dc43e863c176e9b9f2a0b6054b24bd1a|file:///Users/saforem2/site/config/_default/params.toml|16|10|v|conf
+	minimal
+a18366b217ebf811ad1886e4f4f865b2|file:///Users/saforem2/site/data/themes/dark_custom.toml|2|9|v|
+	Dark
+66d5bff8d4fd882deb660d86c9859a54|file:///Users/saforem2/site/data/themes/dark_custom.toml|8|1|V|
+	primary = "hsl(339, 90%, 68%)"
+8865565a4257983f6dea54f7c98096f5|file:///Users/saforem2/site/data/themes/dark_custom.toml|9|12|v|
+	hsl(339, 90%, 68%)
+0587bff0d732be03466befa8137a7785|file:///Users/saforem2/site/data/themes/dark_custom.toml|14|15|v|conf
+	465457
+0fd3175ba5114363ad62e44136cf7fa2|file:///Users/saforem2/site/data/themes/dark_custom.toml|21|1|V|conf
+	# home_section_odd = "hsla(231, 15%, 18%, 1)"
+a56ba06cf6edbea3eeae5d0e8a9788fa|file:///Users/saforem2/site/data/themes/dark_custom.toml|21|21|v|conf
+	hsla(231, 15%, 18%, 1)
+642ff029027ab7d6e66e5683abe56047|file:///Users/saforem2/site/data/themes/dark_custom.toml|21|1|V|conf
+	home_section_odd = "#1c1c1c"
+68934a3e9455fa72420237eb05902327|file:///Users/saforem2/site/config/_default/params.toml|74|16|v|conf
+	false
+0b1c0136cfcd43aea7850acd3eeb52d7|file:///Users/saforem2/site/config/_default/params.toml|116|1|V|conf
+	{icon = "", icon_pack = "", name = "", link = "" },
+b73c2d22763d1ce2143a3755c1d0ad3a|file:///Users/saforem2/site/config/_default/params.toml|115|47|v|conf
+	twitter
+bf215181b5140522137b3d4f6b73544a|file:///Users/saforem2/site/config/_default/params.toml|118|46|v|conf
+	github
+c8eeb30a437ac496541af6d2e06fccd0|file:///Users/saforem2/site/data/themes/dark_custom.toml|9|12|v|conf
+	#ffff00
+8a7ad4d4231fa385cbef3a66b3996198|file:///Users/saforem2/site/data/themes/dark_custom.toml|9|13|v|conf
+	007dff
+804266f946a58c56d9a60309cc6c116c|file:///Users/saforem2/site/config/_default/params.toml|115|47|v|conf
+	tweets
+0be5a6c82893ecaa8bb29bd36831e457|file:///Users/saforem2/site/config/_default/params.toml|116|44|v|conf
+	personal
+0c83f57c786a0b4a39efab23731c7ebc|file:///Users/saforem2/site/config/_default/params.toml|116|10|v|conf
+	email
+a90f52f0fbef6d746fe5f6b7552fa3db|file:///Users/saforem2/site/config/_default/params.toml|116|20|V|conf
+	{icon = "paper-plane", icon_pack = "fab", name = "saforem2@gmail.com", link = "mailto:saforem2@gmail.com"},
+9fa080ec880c3a09fd5187cfba5b2400|file:///Users/saforem2/site/config/_default/params.toml|115|51|v|conf
+	saforem2@gmail.com
+07e939b5dc90ca54f005f0e858d8c1d4|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|466|15|v|tex
+	simdl
+17ed12e7ad968a8704a19a26ba718a2f|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|1|1|v|tex
+	,breaklinks
+7d6a7779699bd762d5b0e18c7ed65000|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|426|65|v|tex
+	1245.
+2c89109d42178de8a367c0228f169bf8|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|418|68|v|tex
+	1244
+32ae7e5ed82faf3c607b9e1f3a8e8246|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|1|1|V|tex
+	      \caption{\label{fig:sinQf}The real-valued topological charge, \(\mathcal{Q}_{\mathbb{R}}\) at intermediate leapfrog layers.}%
+0b75915988576d9e0434b5f9d0acef75|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|168|8|V|tex
+	\citep{10.2307/24308995}
+d9a72ff2218a16ca7299dbf880656d51|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|61|59|v|tex
+	hyperref
+39f9a364ccac07d3069e42f51214df8e|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|67|12|v|tex
+	foremans,xjin@anl.gov
+71d3e8b42792b5e476804f4f7fbddc58|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|61|51|v|tex
+	thanks
+bc250c4d38432637dd6f88974e0def76|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|1|1|v|tex
+	=false
+b67612f691ada68101dae28c98a16d86|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|9|1|V|tex
+	\usepackage[unicode,linktocpage=true,hyperfootnotes]{hyperref}% add hypertext capabilities
+	\usepackage{url}
+e10ea4982a95058673b7060e93c27bf7|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|33|1|V|tex
+	\input{math_commands.tex}
+7f3c72c041d84183281aa005a8e5a96a|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|65|51|v|tex
+	footnote
+21f3b121cab5e0057f16acf0bff2ceed|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|1|1|V|tex
+	   \texttt{\{foremans,xjin,\}@anl.gov},%
+	   \texttt{\{osborn\}@alcf.anl.gov}\\
+c7810033dd99da84b9b0d27cc4aa9ba7|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|1|1|V|tex
+	   Lemont, IL 60439
+a60b4a5ee336f013919bd3d22fdc69c0|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|93|21|V|tex
+	   All code used in generating the
+7cef8a734855777c2a9d0caf42666e69|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|93|26|v|tex
+	open
+47478af664139042108a80d7ff2ed9d4|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|443|29|v|tex
+	phys
+c91dcb2798b38d3a8718ee80f137e9aa|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|443|13|v|tex
+	Illustration of various quantities of interest a
+6353f6420da001e0c8d87cea44a0e3b2|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|443|62|v|tex
+	behave
+bc500dd033a84b00ffd9f81a8a9d5372|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|443|62|v|tex
+	during
+ea5a1cbe764918679997181a3ea281d3|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|443|61|v|tex
+	    }
+2b275d0a4b1af85f1ec5c8323e474623|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|443|72|v|tex
+	during the 
+2629614c19022de098cde12a4e6ded7f|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|443|72|v|tex
+	as they're pa
+3788baece631593315c693c577343d9f|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|443|39|v|tex
+	quantities of interest transform `
+afacdb0a401ccdf6b48551bbc00e8a74|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|28|15|v|tex
+	large
+eb5c1399a871211c7e7ed732d15e3a8b|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|27|12|v|tex
+	small
+1f3d23e730ebb2969a6628fcce2221b7|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|473|1|V|tex
+	Results presented in this research were obtained using the Python \citep{van1995python}, programming language and its
+	many data science libraries
+	\citep{matplotlib,numpyharris2020array,tensorflow2015-whitepaper,seaborn_michael_waskom_2017_883859,ipython4160251,arviz_2019}
+bb4d71ce6cc78218c8382cc155a3cc61|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|550|1|v|tex
+	Note 
+82dffcbeeb43bff74ad19aa3c3dfaddb|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|550|1|v|tex
+	that 
+faacbcd5bf1d018912c116bf2783e9a1|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|427|68|v|tex
+	1816
+abdf095626d4a4ab2bcd4167b128c1f1|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|435|74|v|tex
+	.pdf
+f5c3dd7514bf620a1b85450d2ae374b1|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|442|67|v|tex
+	1818
+f337d999d9ad116a7b4f3d409fcc6480|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|427|68|v|tex
+	1544
+0dd8d44138b7f197e245f40b3c3edfe6|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|73|1|V|tex
+	   \texttt{\href{mailto:foremans@anl.gov}{foremans@anl.gov}},
+	   \texttt{\href{mailto:xjin@anl.gov}{xjin@anl.gov}},
+	   \texttt{\href{mailto:osborn@alcf.anl.gov}{osborn@alcf.anl.gov}}
+92e91d160cb0efcbbe2563267578a35c|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|37|56|V|tex
+	\usepackage[unicode,linktocpage=true,hyperfootnotes]{hyperref}% add hypertext capabilities
+bef8ea5a9026a561a16931f4f04d99bb|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|37|16|V|tex
+	\usepackage{url}
+4d0bdc698ac3bbe1ff6498ceb88d71e8|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|66|3|v|tex
+	ootnote
+012e0ae9ffc766d962cac44cee0575a5|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|52|10|V|tex
+	  footnotecolor=red,
+e0c76fb1d6e2fd143b15df6ec9f10770|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|40|15|V|tex
+	\urlstyle{same}
+c6e9f5ebedf332f58776d04ef5ab4105|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/dynamics/base_dynamics.py|1296|1|v|python
+	        return tf.Variable(initial_value=init,
+	                           name='eps', dtype=TF_FLOAT,
+	                           constraint=tf.keras.constraints.non_neg(),
+	                           trainable=not self.config.eps_fixed)
+	
+	    def _create_lr(
+	            self,
+	            lr_config: LearningRateConfig = None,
+	            scale: bool = False,
+	            auto: bool = True,
+	    ):
+	        """Create the learning rate schedule to be used during training."""
+	        if lr_config is None:
+	
+368725a4fb82944becdd47ee3c193bd8|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/dynamics/dynamics.py|25|15|V|python
+	        _ = hvd
+463a9d7e20d6500e24a01336303502a0|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/dynamics/dynamics.py|24|12|v|python
+	AttributeError
+dc7b069e15556b03913132201ba6edf5|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/utils/hvd_dummy.py|4|1|v|python
+	Dummy cvla
+b058bba8ea6e5f33ff9f776244a647c9|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/utils/__init__.py|83|27|V|python
+	    #          SKEYS.append(f'{dk}{sk}')
+1a6e2dca5183243e45cba67971a4571c|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/network/functional_net.py|64|44|V|python
+	        config = super().get_config().copy()
+ee290a4ffcbb3ab143af4776b1aeb47f|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/network/functional_net.py|64|43|V|python
+	        config.update({'size': self._size})
+36473227a3bf94799b224614ff74f26c|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/network/functional_net.py|1|1|V|python
+	        return config
+892519e1faa331ec2b01fb83df436d43|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/network/functional_net.py|58|28|v|python
+	, **kwargs
+e367d890970038ddcb5f5727934b08df|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/network/functional_net.py|59|47|v|python
+	**kwargs
+db41eff70c4c4b32080b5df9d793f5c8|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/network/functional_net.py|62|1|V|python
+	    def get_config(self):
+	        return super().get_config().copy().update({'size': self._size})
+	
+01c15e3ba3a329676226170ae49dae73|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|244|1|V|tex
+	   \includegraphics[width=\textwidth]{figures/lflayer.pdf}
+ef3a32fe42e655d0f716a527280002c9|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|29|19|v|tex
+	footnotesize
+e3eb16afdbabab150c5da0ade825a14d|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|445|91|v|tex
+	the 
+d0f75350db9746c05376328b8a2cd130|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|445|91|v|tex
+	model 
+3d182c04dcf974d61a020e5dcafa720b|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|445|94|v|tex
+	intermediate 
+fa1f127cadfddaf5c3e8d6d35d1d7503|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|445|91|v|tex
+	at leapfrog layers.
+438fa616dea43dbb0a42b0ce2d393e7a|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|437|105|v|tex
+	intermediate
+f4ec5f57bd4d31b803312d873be40da9|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|437|34|v|tex
+	Change
+271b9e3ceacc284224dc05118f0a9bd5|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|455|78|v|tex
+	at intermediate leapfrog layer
+a7c62d9d21821eb482f7fa293b1a2d5f|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|433|1|V|tex
+	   \begin{subfigure}[h]{0.31\textwidth}
+	      % \centering
+	      % \includegraphics[width=0.8\textwidth]{figures/plaqsf_1758.pdf}
+	      \includegraphics[width=\textwidth]{figures/ridgeplots/plaqsf_1552.pdf}
+	      \caption{\label{fig:plaqsf}Change in the average plaquette, \(\langle x_{P}-x_{P}^{*}\rangle\) at intermediate leapfrog layers.}
+	   \end{subfigure}
+	   \hfill
+	   %
+	   \begin{subfigure}[h]{0.31\textwidth}
+	      % \centering
+	      % \includegraphics[width=0.8\textwidth]{figures/extras/hwf.pdf}
+	      \includegraphics[width=\textwidth]{figures/ridgeplots/hwf_1548.pdf}
+	      \caption{\label{fig:hwf}The readjusted energy, \(\mathcal{H}-\sum\log|\mathcal{J}|\), of the model at intermediate leapfrog layers.}
+	   \end{subfigure}
+	   \hfill
+	   \begin{subfigure}[h]{0.31\textwidth}
+1909b0b3704222be42ab3a8e03f769ae|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|440|9|V|tex
+	      % \includegraphics[width=0.8\textwidth]{figures/extras/hwf.pdf}
+2df9d1b24a4212937024038a80fb6a07|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|445|9|V|tex
+	      % \includegraphics[width=0.8\textwidth]{figures/sinQf_1755.pdf}
+8d9c1649465940a51d61ce1c0f996b65|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|438|4|V|tex
+	   %
+864277d398604345a565e71ceb5cd86f|file:///Users/saforem2/l2hmc-qcd/bin/train_configs.json|45|19|v|json
+	128, 128, 128
+27c5268b113ba01794e88d793ea3ef72|file:///Users/saforem2/l2hmc-qcd/bin/train_configs.json|57|21|v|json
+	64, 32
+0a5845325474dbfbe7c68377fe79fb28|file:///Users/saforem2/l2hmc-qcd/bin/train_configs.json|58|19|v|json
+	4, 2
+dbc321bf7bb5d4f54db2c6bcf1a1c8b4|file:///Users/saforem2/l2hmc-qcd/bin/train_configs.json|39|1|V|json
+	        "x_shape": [64, 16, 16, 2],
+63b64c9134ec7fa98ea48e7262e1c0e0|file:///Users/saforem2/l2hmc-qcd/bin/train_configs.json|57|10|v|json
+	x_shape
+100aff543717c6e21b130e3f0d664e5b|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/utils/training_utils.py|305|1|V|python
+	            tf.keras.utils.plot_model(xnet[0], show_shapes=True, to_file=xf)
+e69b5da0a4a22eae3fe008b6dab4bc4f|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/utils/training_utils.py|305|1|V|python
+	            io.rule('creating graph plots')
+5fb0d662d54b6d3f18cff3063ba40cbe|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/utils/training_utils.py|309|22|v|python
+	creating graph plots
+5e03f342dda6f06dd541f41bb5839984|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/utils/training_utils.py|296|1|V|python
+	        xf0 = os.path.join(dirs.log_dir, 'dynamics_xnet.png')
+f2fca309e52d46c77769f176eb2008b1|file:///Users/saforem2/l2hmc-qcd/bin/train_configs.json|45|19|v|json
+	8, 8
+5b727920ac8b65596bab446c45c28d69|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/utils/training_utils.py|307|1|V|python
+	            tf.keras.utils.plot_model(xnet, show_shapes=True, to_file=xf)
+04bdc15941f3572675a11bd025868348|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/utils/training_utils.py|298|1|V|python
+	        xf = os.path.join(dirs.log_dir, 'dynamics_xnet.png')
+7feb9091d7ced4de1431ee71eed1636a|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/dynamics/gauge_dynamics.py|385|28|v|python
+	conv_config
+99b400822e911e7b245871476704fff2|file:///Users/saforem2/CompPerfWorkshop-2021/README.md|10|4|v|markdown
+	Wednesdasy
+2f0f1b8ef9f6d9ad31dd1b69fa53997b|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/lattice/fields.py|13|16|v|python
+	False[0, 1j],
+658f04ea76c3603ac889690a39e7e480|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/lattice/fields.py|17|16|v|python
+	Fals
+f8320b26d30ab433c5a54546d21f414c|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/lattice/fields.py|17|16|v|python
+	False
+c1f4dde9c5798a504eef570a88bd022b|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/lattice/fields.py|21|10|V|python
+	         [
+49714ffb1c938faec5f8f716509d4ba0|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/lattice/fields.py|25|6|V|python
+	    ])
+60da39e537710e048d43fe217483edd2|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/lattice/fields.py|25|10|V|python
+	    fields
+6b3c75df8a65413ee7b6c8b82da48af5|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/lattice/fields.py|17|5|V|python
+	    ]
+93473a7344419b15c4219cc2b6c64c6f|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/lattice/fields.py|10|6|v|python
+	import
+7e75b8b7d26fdb5da4b3d3ff177c823b|file:///Users/saforem2/.config/nvim/config/coc.vimrc|56|1|V|vim
+	if exists('*complete_info')
+	  inoremap <silent><expr> <cr> complete_info(['selected'])['selected'] != -1 ? "\<C-y>" : "\<C-g>u\<CR>"
+	endif
+	
+fe0b9517775c8c3a9780ccb734220d91|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/dynamics/dynamics.py|29|5|v|python
+	HAS_H
+8b5758bdf1daf587b9560c6d5e7d462b|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/dynamics/dynamics.py|35|74|V|python
+	from dynamics.config import (DynamicsConfig, State, MonteCarloStates, NetW
+12f5f588f001d1ea6a324df27cbfe3fa|file:///Users/saforem2/.config/nvim/coc-settings.json|56|25|V|json
+	    "python.jediEnabled":
+05ebaa3f6751c5c41e735a4813ba0630|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/dynamics/dynamics.py|43|17|v|python
+	object for perfo
+67db59b360292d15bcc57efaf7232ef9|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/dynamics/dynamics.py|43|8|v|python
+	Dynamics 
+e9ec2951355c9a0b222eade1d624c542|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/dynamics/dynamics.py|43|19|v|python
+	performing the 
+497031794414a552435f90151ac3b54b|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/dynamics/dynamics.py|43|8|v|python
+	Object
+21ffce5b8a6cc8cc6a41448dd69623c9|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/dynamics/dynamics.py|46|9|v|python
+	params
+1a5bd69ea14ad7a143828cf414ccae02|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/dynamics/dynamics.py|51|21|V|python
+	        should_build=
+1deb360a16b88ec17e0fe5ac3ea35185|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/dynamics/dynamics.py|54|28|V|python
+	        self.params = params
+e3f606f1e2b127b6fddb311bc5cc0ff6|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/dynamics/dynamics.py|57|14|v|python
+	potential_fn
+c77264abfe8ce3e580df0dd83b1702c4|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/dynamics/dynamics.py|68|13|v|python
+	_build_epsbb
+5c111fb40acbec3f5e99c78ca9577dc4|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/dynamics/dynamics.py|70|33|v|python
+	use_log=use_log
+4e0b0f497432fba792db88869437fcc3|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/dynamics/dynamics.py|70|33|v|python
+	use_log=
+20e55981c57b86da2df266d95d5898d1|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/dynamics/dynamics.py|68|25|V|python
+	        self._lf_step = 0
+02af6d563855ddb6c5cce83389adfd0e|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/dynamics/dynamics.py|57|15|v|python
+	BaseDynamics
+635833b283dc37f5d108ff063f846cd1|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/dynamics/dynamics.py|85|32|V|python
+	            self.xnet, self.vnet
+ce84ba86725e6a6eb88d121f445a033a|file:///Users/saforem2/l2hmc-qcd/l2hmc-qcd/dynamics/dynamics.py|84|1|V|python
+	        if not self.config.hmc:
+87db41d1e212fb16cf6292b3f470cbaa|file:///Users/saforem2/.dotfiles/install.conf.yaml|47|7|V|yaml
+	    ~/.
+dbbcf83635dacbddb5bb254762a344c6|file:///Users/saforem2/.dotfiles/install.conf.yaml|46|7|V|yaml
+	- create:
+41fb8b9cd218371f37ebd8a36e9a8f35|file:///Users/saforem2/.dotfiles/install.conf.yaml|11|16|v|yaml
+	9j9j9j
+17e0c15de2dab0c60fd5628ce5ae52a6|file:///Users/saforem2/.dotfiles/install.conf.yaml|16|15|V|yaml
+	        exclude
+fdab5ce01ec20b1c7c1d81f30b01db7b|file:///Users/saforem2/.dotfiles/install.conf.yaml|16|19|V|yaml
+	        relink true
+9550412b5d4f93ee6fcecaef0beb4f89|file:///Users/saforem2/.dotfiles/install.conf.yaml|9|15|V|yaml
+	        path: tmux.conf
+a03d2ba4578d4d5f9d252338fbf5afc4|file:///Users/saforem2/.dotfiles/install.conf.yaml|9|15|V|yaml
+	        create: true
+4e512e8aba1089d57b683555b5bddbbd|file:///Users/saforem2/.dotfiles/install.conf.yaml|9|15|V|yaml
+	        relink: true
+146c8368d7d754150a8cf7eb118754b8|file:///Users/saforem2/.ssh/config|25|5|v|sshconfig
+	UseKeychain
+28a55830b8c35c212f120fc064907c52|file:///Users/saforem2/.aliases|112|7|V|conf
+	alias ssh='TERM=xterm-256color ssh'
+e7f3984f4820a4e16fec4a274861710f|file:///Users/saforem2/.aliases|2|1|V|conf
+	#alias key0='echo 0| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias key50='echo 50| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias key100='echo 100| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+6239ab98cc5e4b2b304545e8e38ea603|file:///Users/saforem2/.aliases|10|1|V|conf
+	#alias key0='echo 0| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias key50='echo 50| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias key100='echo 100| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias la='gls -a -x --color=auto'
+d5726462810e4b81a415a2d622cdeaca|file:///Users/saforem2/.aliases|20|1|V|conf
+	#alias key0='echo 0| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias key50='echo 50| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias key100='echo 100| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias la='gls -a -x --color=auto'
+	#for convert_to_wav, execute from directory with .mp3 files
+	# alias convert_to_wav='for i in *.mp3; do sox "$i" -b 16 -c 2 -s -r 44100 "$(basename "$i" .mp3).wav"; done'
+e708916e6c6860ae4c7619596aafa808|file:///Users/saforem2/.aliases|22|1|V|conf
+	#alias key0='echo 0| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias key50='echo 50| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias key100='echo 100| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias la='gls -a -x --color=auto'
+	#for convert_to_wav, execute from directory with .mp3 files
+	# alias convert_to_wav='for i in *.mp3; do sox "$i" -b 16 -c 2 -s -r 44100 "$(basename "$i" .mp3).wav"; done'
+	#alias ducks='sudo ls -lShR . | head -500 >> ~/biggest_files.txt && vim ~/biggest_files.txt'
+1172cdd8306d881810314f035bc3d310|file:///Users/saforem2/.aliases|23|1|V|conf
+	#alias key0='echo 0| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias key50='echo 50| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias key100='echo 100| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias la='gls -a -x --color=auto'
+	#for convert_to_wav, execute from directory with .mp3 files
+	# alias convert_to_wav='for i in *.mp3; do sox "$i" -b 16 -c 2 -s -r 44100 "$(basename "$i" .mp3).wav"; done'
+	#alias ducks='sudo ls -lShR . | head -500 >> ~/biggest_files.txt && vim ~/biggest_files.txt'
+	#alias background='xsetroot -bg \#1C1C1C -mod 3 3'
+4b0f12992855a67a60d492991e89d307|file:///Users/saforem2/.aliases|25|1|V|conf
+	#alias key0='echo 0| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias key50='echo 50| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias key100='echo 100| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias la='gls -a -x --color=auto'
+	#for convert_to_wav, execute from directory with .mp3 files
+	# alias convert_to_wav='for i in *.mp3; do sox "$i" -b 16 -c 2 -s -r 44100 "$(basename "$i" .mp3).wav"; done'
+	#alias ducks='sudo ls -lShR . | head -500 >> ~/biggest_files.txt && vim ~/biggest_files.txt'
+	#alias background='xsetroot -bg \#1C1C1C -mod 3 3'
+	#alias matlab='cd /media/mac/Applications/MATLAB_R2014a.app/ && matlab  -nodesktop -nosplash'
+	#alias matlab='cd /backup/matlab'
+36d8ec83e373e33454c34587857ce8da|file:///Users/saforem2/.aliases|29|1|V|conf
+	#alias key0='echo 0| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias key50='echo 50| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias key100='echo 100| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias la='gls -a -x --color=auto'
+	#for convert_to_wav, execute from directory with .mp3 files
+	# alias convert_to_wav='for i in *.mp3; do sox "$i" -b 16 -c 2 -s -r 44100 "$(basename "$i" .mp3).wav"; done'
+	#alias ducks='sudo ls -lShR . | head -500 >> ~/biggest_files.txt && vim ~/biggest_files.txt'
+	#alias background='xsetroot -bg \#1C1C1C -mod 3 3'
+	#alias matlab='cd /media/mac/Applications/MATLAB_R2014a.app/ && matlab  -nodesktop -nosplash'
+	#alias matlab='cd /backup/matlab'
+	#alias lc='ls -a| lolcat'
+1b61ecde20e89627fb0916a4525a4f4c|file:///Users/saforem2/.aliases|42|1|V|conf
+	#alias key0='echo 0| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias key50='echo 50| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias key100='echo 100| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias la='gls -a -x --color=auto'
+	#for convert_to_wav, execute from directory with .mp3 files
+	# alias convert_to_wav='for i in *.mp3; do sox "$i" -b 16 -c 2 -s -r 44100 "$(basename "$i" .mp3).wav"; done'
+	#alias ducks='sudo ls -lShR . | head -500 >> ~/biggest_files.txt && vim ~/biggest_files.txt'
+	#alias background='xsetroot -bg \#1C1C1C -mod 3 3'
+	#alias matlab='cd /media/mac/Applications/MATLAB_R2014a.app/ && matlab  -nodesktop -nosplash'
+	#alias matlab='cd /backup/matlab'
+	#alias lc='ls -a| lolcat'
+	#alias tmux='tmux attach || tmux new'
+	# alias tmux='tmux -2'
+92478443eff322a4de0a9a6ddc50b13e|file:///Users/saforem2/.aliases|47|1|V|conf
+	#alias key0='echo 0| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias key50='echo 50| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias key100='echo 100| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias la='gls -a -x --color=auto'
+	#for convert_to_wav, execute from directory with .mp3 files
+	# alias convert_to_wav='for i in *.mp3; do sox "$i" -b 16 -c 2 -s -r 44100 "$(basename "$i" .mp3).wav"; done'
+	#alias ducks='sudo ls -lShR . | head -500 >> ~/biggest_files.txt && vim ~/biggest_files.txt'
+	#alias background='xsetroot -bg \#1C1C1C -mod 3 3'
+	#alias matlab='cd /media/mac/Applications/MATLAB_R2014a.app/ && matlab  -nodesktop -nosplash'
+	#alias matlab='cd /backup/matlab'
+	#alias lc='ls -a| lolcat'
+	#alias tmux='tmux attach || tmux new'
+	# alias tmux='tmux -2'
+	# alias rmorphans='sudo pacman -Rs $(pacman -Qtdq)'
+23181fc14c26f32adb70f95ca65800a3|file:///Users/saforem2/.aliases|54|1|V|conf
+	#alias key0='echo 0| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias key50='echo 50| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias key100='echo 100| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias la='gls -a -x --color=auto'
+	#for convert_to_wav, execute from directory with .mp3 files
+	# alias convert_to_wav='for i in *.mp3; do sox "$i" -b 16 -c 2 -s -r 44100 "$(basename "$i" .mp3).wav"; done'
+	#alias ducks='sudo ls -lShR . | head -500 >> ~/biggest_files.txt && vim ~/biggest_files.txt'
+	#alias background='xsetroot -bg \#1C1C1C -mod 3 3'
+	#alias matlab='cd /media/mac/Applications/MATLAB_R2014a.app/ && matlab  -nodesktop -nosplash'
+	#alias matlab='cd /backup/matlab'
+	#alias lc='ls -a| lolcat'
+	#alias tmux='tmux attach || tmux new'
+	# alias tmux='tmux -2'
+	# alias rmorphans='sudo pacman -Rs $(pacman -Qtdq)'
+	# alias allcolors='(x=`tput op` y=`printf %76s`;for i in {0..256};do o=00$i;echo -e ${o:${#o}-3:3} `tput setaf $i;tput setab $i`${y// /=}$x;done)'
+440e3adbdb244d1652e972946eb4bd29|file:///Users/saforem2/.aliases|68|1|V|conf
+	#alias key0='echo 0| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias key50='echo 50| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias key100='echo 100| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias la='gls -a -x --color=auto'
+	#for convert_to_wav, execute from directory with .mp3 files
+	# alias convert_to_wav='for i in *.mp3; do sox "$i" -b 16 -c 2 -s -r 44100 "$(basename "$i" .mp3).wav"; done'
+	#alias ducks='sudo ls -lShR . | head -500 >> ~/biggest_files.txt && vim ~/biggest_files.txt'
+	#alias background='xsetroot -bg \#1C1C1C -mod 3 3'
+	#alias matlab='cd /media/mac/Applications/MATLAB_R2014a.app/ && matlab  -nodesktop -nosplash'
+	#alias matlab='cd /backup/matlab'
+	#alias lc='ls -a| lolcat'
+	#alias tmux='tmux attach || tmux new'
+	# alias tmux='tmux -2'
+	# alias rmorphans='sudo pacman -Rs $(pacman -Qtdq)'
+	# alias allcolors='(x=`tput op` y=`printf %76s`;for i in {0..256};do o=00$i;echo -e ${o:${#o}-3:3} `tput setaf $i;tput setab $i`${y// /=}$x;done)'
+	# Colorize the ls output ##
+	# alias ls='LC_COLLATE=C ls -h --group-directories-first --color=auto'
+	#alias vim='nvim'
+	# alias vim='NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim'
+	# alias h='function hdi(){ howdoi $* -c -n 5; }; hdi'
+60160d3cc7db48a99886285cda0af671|file:///Users/saforem2/.aliases|69|1|V|conf
+	#alias key0='echo 0| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias key50='echo 50| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias key100='echo 100| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias la='gls -a -x --color=auto'
+	#for convert_to_wav, execute from directory with .mp3 files
+	# alias convert_to_wav='for i in *.mp3; do sox "$i" -b 16 -c 2 -s -r 44100 "$(basename "$i" .mp3).wav"; done'
+	#alias ducks='sudo ls -lShR . | head -500 >> ~/biggest_files.txt && vim ~/biggest_files.txt'
+	#alias background='xsetroot -bg \#1C1C1C -mod 3 3'
+	#alias matlab='cd /media/mac/Applications/MATLAB_R2014a.app/ && matlab  -nodesktop -nosplash'
+	#alias matlab='cd /backup/matlab'
+	#alias lc='ls -a| lolcat'
+	#alias tmux='tmux attach || tmux new'
+	# alias tmux='tmux -2'
+	# alias rmorphans='sudo pacman -Rs $(pacman -Qtdq)'
+	# alias allcolors='(x=`tput op` y=`printf %76s`;for i in {0..256};do o=00$i;echo -e ${o:${#o}-3:3} `tput setaf $i;tput setab $i`${y// /=}$x;done)'
+	# Colorize the ls output ##
+	# alias ls='LC_COLLATE=C ls -h --group-directories-first --color=auto'
+	#alias vim='nvim'
+	# alias vim='NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim'
+	# alias h='function hdi(){ howdoi $* -c -n 5; }; hdi'
+	# alias ls='gls -ABFp --group-directories-first --color=auto'
+	# alias ls='ls -ABgp --color=always'
+	# alias lc='colorls -lA --sd'
+	# alias lsg='colorls -A --group-directories-first --gs'
+	# alias ls='colorls -A --group-directories-first'
+	###############################################$#############
+	# alias ls='/usr/local/bin/extended_ls -As'
+d194e5bb915557d5003351422589f339|file:///Users/saforem2/.aliases|79|1|V|conf
+	#alias key0='echo 0| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias key50='echo 50| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias key100='echo 100| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias la='gls -a -x --color=auto'
+	#for convert_to_wav, execute from directory with .mp3 files
+	# alias convert_to_wav='for i in *.mp3; do sox "$i" -b 16 -c 2 -s -r 44100 "$(basename "$i" .mp3).wav"; done'
+	#alias ducks='sudo ls -lShR . | head -500 >> ~/biggest_files.txt && vim ~/biggest_files.txt'
+	#alias background='xsetroot -bg \#1C1C1C -mod 3 3'
+	#alias matlab='cd /media/mac/Applications/MATLAB_R2014a.app/ && matlab  -nodesktop -nosplash'
+	#alias matlab='cd /backup/matlab'
+	#alias lc='ls -a| lolcat'
+	#alias tmux='tmux attach || tmux new'
+	# alias tmux='tmux -2'
+	# alias rmorphans='sudo pacman -Rs $(pacman -Qtdq)'
+	# alias allcolors='(x=`tput op` y=`printf %76s`;for i in {0..256};do o=00$i;echo -e ${o:${#o}-3:3} `tput setaf $i;tput setab $i`${y// /=}$x;done)'
+	# Colorize the ls output ##
+	# alias ls='LC_COLLATE=C ls -h --group-directories-first --color=auto'
+	#alias vim='nvim'
+	# alias vim='NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim'
+	# alias h='function hdi(){ howdoi $* -c -n 5; }; hdi'
+	# alias ls='gls -ABFp --group-directories-first --color=auto'
+	# alias ls='ls -ABgp --color=always'
+	# alias lc='colorls -lA --sd'
+	# alias lsg='colorls -A --group-directories-first --gs'
+	# alias ls='colorls -A --group-directories-first'
+	###############################################$#############
+	# alias ls='/usr/local/bin/extended_ls -As'
+	# alias spython3='/usr/local/Cellar/python/3.6.5_1/bin/python3.6'
+	# alias spip3='/usr/local/Cellar/python/3.6.5_1/bin/python3.6 -m pip'
+2319d572821057613fbb3c66eea4eae5|file:///Users/saforem2/.aliases|81|1|V|conf
+	#alias key0='echo 0| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias key50='echo 50| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias key100='echo 100| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias la='gls -a -x --color=auto'
+	#for convert_to_wav, execute from directory with .mp3 files
+	# alias convert_to_wav='for i in *.mp3; do sox "$i" -b 16 -c 2 -s -r 44100 "$(basename "$i" .mp3).wav"; done'
+	#alias ducks='sudo ls -lShR . | head -500 >> ~/biggest_files.txt && vim ~/biggest_files.txt'
+	#alias background='xsetroot -bg \#1C1C1C -mod 3 3'
+	#alias matlab='cd /media/mac/Applications/MATLAB_R2014a.app/ && matlab  -nodesktop -nosplash'
+	#alias matlab='cd /backup/matlab'
+	#alias lc='ls -a| lolcat'
+	#alias tmux='tmux attach || tmux new'
+	# alias tmux='tmux -2'
+	# alias rmorphans='sudo pacman -Rs $(pacman -Qtdq)'
+	# alias allcolors='(x=`tput op` y=`printf %76s`;for i in {0..256};do o=00$i;echo -e ${o:${#o}-3:3} `tput setaf $i;tput setab $i`${y// /=}$x;done)'
+	# Colorize the ls output ##
+	# alias ls='LC_COLLATE=C ls -h --group-directories-first --color=auto'
+	#alias vim='nvim'
+	# alias vim='NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim'
+	# alias h='function hdi(){ howdoi $* -c -n 5; }; hdi'
+	# alias ls='gls -ABFp --group-directories-first --color=auto'
+	# alias ls='ls -ABgp --color=always'
+	# alias lc='colorls -lA --sd'
+	# alias lsg='colorls -A --group-directories-first --gs'
+	# alias ls='colorls -A --group-directories-first'
+	###############################################$#############
+	# alias ls='/usr/local/bin/extended_ls -As'
+	# alias spython3='/usr/local/Cellar/python/3.6.5_1/bin/python3.6'
+	# alias spip3='/usr/local/Cellar/python/3.6.5_1/bin/python3.6 -m pip'
+	# alias nvim='/Users/saforem2/nvim-osx64/bin/nvim'
+	#alias nvim='~/nvim-osx64/bin/nvim'
+bb410c9d903062c6e6c4e999310ef149|file:///Users/saforem2/.aliases|82|1|V|conf
+	#alias key0='echo 0| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias key50='echo 50| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias key100='echo 100| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias la='gls -a -x --color=auto'
+	#for convert_to_wav, execute from directory with .mp3 files
+	# alias convert_to_wav='for i in *.mp3; do sox "$i" -b 16 -c 2 -s -r 44100 "$(basename "$i" .mp3).wav"; done'
+	#alias ducks='sudo ls -lShR . | head -500 >> ~/biggest_files.txt && vim ~/biggest_files.txt'
+	#alias background='xsetroot -bg \#1C1C1C -mod 3 3'
+	#alias matlab='cd /media/mac/Applications/MATLAB_R2014a.app/ && matlab  -nodesktop -nosplash'
+	#alias matlab='cd /backup/matlab'
+	#alias lc='ls -a| lolcat'
+	#alias tmux='tmux attach || tmux new'
+	# alias tmux='tmux -2'
+	# alias rmorphans='sudo pacman -Rs $(pacman -Qtdq)'
+	# alias allcolors='(x=`tput op` y=`printf %76s`;for i in {0..256};do o=00$i;echo -e ${o:${#o}-3:3} `tput setaf $i;tput setab $i`${y// /=}$x;done)'
+	# Colorize the ls output ##
+	# alias ls='LC_COLLATE=C ls -h --group-directories-first --color=auto'
+	#alias vim='nvim'
+	# alias vim='NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim'
+	# alias h='function hdi(){ howdoi $* -c -n 5; }; hdi'
+	# alias ls='gls -ABFp --group-directories-first --color=auto'
+	# alias ls='ls -ABgp --color=always'
+	# alias lc='colorls -lA --sd'
+	# alias lsg='colorls -A --group-directories-first --gs'
+	# alias ls='colorls -A --group-directories-first'
+	###############################################$#############
+	# alias ls='/usr/local/bin/extended_ls -As'
+	# alias spython3='/usr/local/Cellar/python/3.6.5_1/bin/python3.6'
+	# alias spip3='/usr/local/Cellar/python/3.6.5_1/bin/python3.6 -m pip'
+	# alias nvim='/Users/saforem2/nvim-osx64/bin/nvim'
+	#alias nvim='~/nvim-osx64/bin/nvim'
+	# mupdf () { mupdf-gl $1 >/dev/null 2>&1 & }
+	alias fortnite_clean='cd ~/Movies/NVIDIA/GeForce\ NOW/Fortnite && rm -rf *.mp4 *.png && cd -'
+	alias pygrep='grep -irF --exclude_dir={notebooks,__pycache__}'
+	alias start_conda='source ~/miniconda3/bin/activate'
+	alias colorls='/Users/saforem2/.gem/bin/colorls -AX --sd'
+	# alias ls='/Users/saforem2/.gem/bin/colorls -AX --sd'
+	# alias ls='gls -ABFXp --group-directories-first --color=auto'
+	# alias ls='exa -BFa --group-directories-first --color=auto'
+225f213aac02234e2a379006241ccce3|file:///Users/saforem2/.aliases|86|1|V|conf
+	#alias key0='echo 0| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias key50='echo 50| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias key100='echo 100| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias la='gls -a -x --color=auto'
+	#for convert_to_wav, execute from directory with .mp3 files
+	# alias convert_to_wav='for i in *.mp3; do sox "$i" -b 16 -c 2 -s -r 44100 "$(basename "$i" .mp3).wav"; done'
+	#alias ducks='sudo ls -lShR . | head -500 >> ~/biggest_files.txt && vim ~/biggest_files.txt'
+	#alias background='xsetroot -bg \#1C1C1C -mod 3 3'
+	#alias matlab='cd /media/mac/Applications/MATLAB_R2014a.app/ && matlab  -nodesktop -nosplash'
+	#alias matlab='cd /backup/matlab'
+	#alias lc='ls -a| lolcat'
+	#alias tmux='tmux attach || tmux new'
+	# alias tmux='tmux -2'
+	# alias rmorphans='sudo pacman -Rs $(pacman -Qtdq)'
+	# alias allcolors='(x=`tput op` y=`printf %76s`;for i in {0..256};do o=00$i;echo -e ${o:${#o}-3:3} `tput setaf $i;tput setab $i`${y// /=}$x;done)'
+	# Colorize the ls output ##
+	# alias ls='LC_COLLATE=C ls -h --group-directories-first --color=auto'
+	#alias vim='nvim'
+	# alias vim='NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim'
+	# alias h='function hdi(){ howdoi $* -c -n 5; }; hdi'
+	# alias ls='gls -ABFp --group-directories-first --color=auto'
+	# alias ls='ls -ABgp --color=always'
+	# alias lc='colorls -lA --sd'
+	# alias lsg='colorls -A --group-directories-first --gs'
+	# alias ls='colorls -A --group-directories-first'
+	###############################################$#############
+	# alias ls='/usr/local/bin/extended_ls -As'
+	# alias spython3='/usr/local/Cellar/python/3.6.5_1/bin/python3.6'
+	# alias spip3='/usr/local/Cellar/python/3.6.5_1/bin/python3.6 -m pip'
+	# alias nvim='/Users/saforem2/nvim-osx64/bin/nvim'
+	#alias nvim='~/nvim-osx64/bin/nvim'
+	# mupdf () { mupdf-gl $1 >/dev/null 2>&1 & }
+	alias fortnite_clean='cd ~/Movies/NVIDIA/GeForce\ NOW/Fortnite && rm -rf *.mp4 *.png && cd -'
+	alias pygrep='grep -irF --exclude_dir={notebooks,__pycache__}'
+	alias start_conda='source ~/miniconda3/bin/activate'
+	alias colorls='/Users/saforem2/.gem/bin/colorls -AX --sd'
+	# alias ls='/Users/saforem2/.gem/bin/colorls -AX --sd'
+	# alias ls='gls -ABFXp --group-directories-first --color=auto'
+	# alias ls='exa -BFa --group-directories-first --color=auto'
+	# alias ls='ls-go --nerd-font --all'
+2ecef4a16f767b058d84ca5b324f7b4a|file:///Users/saforem2/.aliases|91|1|V|conf
+	#alias key0='echo 0| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias key50='echo 50| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias key100='echo 100| sudo tee /sys/class/leds/smc::kbd_backlight/brightness'
+	#alias la='gls -a -x --color=auto'
+	#for convert_to_wav, execute from directory with .mp3 files
+	# alias convert_to_wav='for i in *.mp3; do sox "$i" -b 16 -c 2 -s -r 44100 "$(basename "$i" .mp3).wav"; done'
+	#alias ducks='sudo ls -lShR . | head -500 >> ~/biggest_files.txt && vim ~/biggest_files.txt'
+	#alias background='xsetroot -bg \#1C1C1C -mod 3 3'
+	#alias matlab='cd /media/mac/Applications/MATLAB_R2014a.app/ && matlab  -nodesktop -nosplash'
+	#alias matlab='cd /backup/matlab'
+	#alias lc='ls -a| lolcat'
+	#alias tmux='tmux attach || tmux new'
+	# alias tmux='tmux -2'
+	# alias rmorphans='sudo pacman -Rs $(pacman -Qtdq)'
+	# alias allcolors='(x=`tput op` y=`printf %76s`;for i in {0..256};do o=00$i;echo -e ${o:${#o}-3:3} `tput setaf $i;tput setab $i`${y// /=}$x;done)'
+	# Colorize the ls output ##
+	# alias ls='LC_COLLATE=C ls -h --group-directories-first --color=auto'
+	#alias vim='nvim'
+	# alias vim='NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim'
+	# alias h='function hdi(){ howdoi $* -c -n 5; }; hdi'
+	# alias ls='gls -ABFp --group-directories-first --color=auto'
+	# alias ls='ls -ABgp --color=always'
+	# alias lc='colorls -lA --sd'
+	# alias lsg='colorls -A --group-directories-first --gs'
+	# alias ls='colorls -A --group-directories-first'
+	###############################################$#############
+	# alias ls='/usr/local/bin/extended_ls -As'
+	# alias spython3='/usr/local/Cellar/python/3.6.5_1/bin/python3.6'
+	# alias spip3='/usr/local/Cellar/python/3.6.5_1/bin/python3.6 -m pip'
+	# alias nvim='/Users/saforem2/nvim-osx64/bin/nvim'
+	#alias nvim='~/nvim-osx64/bin/nvim'
+	# mupdf () { mupdf-gl $1 >/dev/null 2>&1 & }
+	alias fortnite_clean='cd ~/Movies/NVIDIA/GeForce\ NOW/Fortnite && rm -rf *.mp4 *.png && cd -'
+	alias pygrep='grep -irF --exclude_dir={notebooks,__pycache__}'
+	alias start_conda='source ~/miniconda3/bin/activate'
+	alias colorls='/Users/saforem2/.gem/bin/colorls -AX --sd'
+	# alias ls='/Users/saforem2/.gem/bin/colorls -AX --sd'
+	# alias ls='gls -ABFXp --group-directories-first --color=auto'
+	# alias ls='exa -BFa --group-directories-first --color=auto'
+	# alias ls='ls-go --nerd-font --all'
+	# alias h='function hdi(){ howdoi $* -c -n 5; }; hdi'
+84185bfb078a66347b58636e0c760953|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|392|21|v|tex
+	 %different trajectory lengths.}
+2f6546107dd4d0478f80121cfda5b5fe|file:///Users/saforem2/ICLR_SimDL_l2hmc-qcd/iclr2021_conference.tex|393|20|V|tex
+	         % for HMC (black dashed line), trained model (solid blue line).}
+bae0cfc9ee57bd54312963fb456c6b44|file:///Users/saforem2/dotfiles/install.config.yaml|18|7|V|yaml
+	  ~/.ipython/profile_default/ipython_kernel_config.py: ipython/ipython_kernel_config.py
+	  ~/.io
+bd1f9c279e0e67b7de63106a43721421|file:///Users/saforem2/dotfiles/install.config.yaml|19|7|V|yaml
+	  ~/.io
+5a00bbba7a6e44f1429eabf7f40728af|file:///Users/saforem2/dotfiles/install.config.yaml|18|1|V|yaml
+	  ~/.ipython/profile_default/ipython_kernel_config.py: ipython/ipython_kernel_config.py
+ad551eaedb03f740372bab6d21f164e7|file:///Users/saforem2/dotfiles/install.config.yaml|19|30|v|yaml
+	ipython_kernel_config
+44b20bee70916dfbe79f8d49bcc0685e|file:///Users/saforem2/dotfiles/install.config.yaml|19|59|v|yaml
+	ipython_kernel_config.py
+fb5d1b4a2312e239652b13a24ed9a74f|file:///Users/saforem2/dotfiles/install.config.yaml|21|46|v|yaml
+	notebook
+748c60a59202cb72c4cfe80faa4f20a5|file:///Users/saforem2/dotfiles/install.config.yaml|22|18|v|yaml
+	jupyter/nbe
+7ebca0ce31c0cb4cbce9fed0df1de75c|file:///Users/saforem2/dotfiles/install.config.yaml|22|18|V|yaml
+	  ~/.local/share/j
+63f556d46d62a9db4a7b04b407ce2b23|file:///Users/saforem2/dotfiles/install.config.yaml|22|8|V|yaml
+	  ~/.vim
+c67a1b2d17baef2dfa47bbc21ae6b045|file:///Users/saforem2/dotfiles/install.config.yaml|21|15|V|yaml
+	  ~/.config/nvm
+e66b4187e4c4044487f1c92c83ea0324|file:///Users/saforem2/dotfiles/install.config.yaml|16|5|V|yaml
+	  ~/.
