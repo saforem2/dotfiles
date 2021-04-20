@@ -1,2 +1,3 @@
 *.pyc
 config/coc/extensions/node_modules/
+config/fish/*fishd.tmp*
