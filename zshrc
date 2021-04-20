@@ -325,15 +325,15 @@ fi
 
 # Make it easy to append your own customizations that override the above by
 # loading all files from the ~/.zshrc.d directory
-mkdir -p ~/.zshrc.d
-if [ -n "$(/bin/ls ~/.zshrc.d)" ]; then
-  for dotfile in ~/.zshrc.d/*
-  do
-    if [ -r "${dotfile}" ]; then
-      source "${dotfile}"
-    fi
-  done
-fi
+#mkdir -p ~/.zshrc.d
+#if [ -n "$(/bin/ls ~/.zshrc.d)" ]; then
+#  for dotfile in ~/.zshrc.d/*
+#  do
+#    if [ -r "${dotfile}" ]; then
+#      source "${dotfile}"
+#    fi
+#  done
+#fi
 
 # remove dupes from $PATH using a zsh builtin
 # https://til.hashrocket.com/posts/7evpdebn7g-remove-duplicates-in-zsh-path
