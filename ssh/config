@@ -1,4 +1,12 @@
-################################################### ForwardX11 yes ControlMaster auto ControlPath ~/.ssh/master%r@%h:%p IPQoS=throughput ServerAliveInterval 60 # ServerAliveCountMax=1 PreferredAuthentications publickey,password,keyboard-interactive
+###################################################
+# ForwardX11 yes
+ControlMaster auto
+ControlPath ~/.ssh/master%r@%h:%p
+IPQoS=throughput
+ServerAliveInterval 60 
+# ServerAliveCountMax=1
+PreferredAuthentications publickey,password,keyboard-interactive
+
 # Host login-jlse
 # Hostname login.jlse.anl.gov
 # User foremans1
@@ -12,12 +20,6 @@
 # ServerAliveInterval 60
 # PreferredAuthentications publickey,password,keyboard-interactive
 #
-Host github.com 
-    AddKeysToAgent yes
-    UseKeychain yes
-    IdentityFile ~/.ssh/id_ed25519_github
-
-
 #
 Host login.mcs
 Hostname login.mcs.anl.gov
@@ -124,3 +126,9 @@ IdentityFile ~/.ssh/devcloud-access-key-43006.txt
 LocalForward 4022 c009:22
 ProxyCommand nc -x PROXY_HOSTNAME:PORT %h %p
 ################################################################################################
+#
+#
+Host github.com 
+    AddKeysToAgent yes
+    UseKeychain yes
+    IdentityFile ~/.ssh/id_ed25519_github
