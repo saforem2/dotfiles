@@ -337,7 +337,8 @@ set textwidth=120
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """""""""""""""""""""""" SERVED ME WELL"""""""""""""""""""""""""""""""
 " colorscheme molokai_sam  <---- NOT THIS ONE
-colorscheme molokai_new
+" colorscheme molokai_new
+" colorscheme molokai_new
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " colorscheme ThemerVim

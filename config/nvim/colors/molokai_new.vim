@@ -13,63 +13,63 @@ let s:github_grey = '#8B949E'
 
 
 " Material colors
-" #ff5252 red
-" #ff867f light red
-" #c50e29 dark red
-" #ff4081 pink 
-" #ff79b0 light pink
-" #c60055 dark pink
-" #e040fb purple 
-" #ff79ff light purple
-" #aa00c7 dark purple
-" #7c4dff deep purple
-" #b47cff light deep purple
-" #3f1dcb dark deep purple
-" #536dfe indigo 
-" #8f9bff light indigo
-" #0043ca dark indigo
-" #448aff blue 
-" #83b9ff light blue
-" #005ecb dark blue
-" #40c4ff light blue
-" #82f7ff light light blue
-" #0094cc dark light blue
-" #18ffff cyan 
-" #76ffff light cyan
-" #00cbcc dark cyan
-" #65ffda teal 
-" #9effff light teal
-" #14cba8 dark teal
-" #69f0ae green 
-" #9fffe0 light green
-" #2bbd7e dark green
-" #b2ff59 light green
-" #e7ff8c light light green
-" #7ecb20 dark light green
-" #eeff71 lime 
-" #ffff78 light lime
-" #b8cc00 dark lime
-" #ffff00 yellow 
-" #ffff5a light yellow
-" #c7cc00 dark yellow
-" #ffd740 amber 
-" #ffff74 light amber
-" #c8a600 dark amber
-" #ffab40 orange 
-" #ffdd71 light orange
-" #c77c02 dark oragne
-" #ff6e40 deep orange
-" #ffa06d light deep orange
-" #c53d13 dark deep orange
-" #3e2723 brown 
-" #6a4f4b light brown
-" #1b0000 dark brown
-" #212121 grey 
-" #484848 light grey
-" #000000 dark grey
-" #263238 blue grey
-" #4f5b62 light blue grey
-" #000a12 dark blue grey
+let s:redmaterial               = '#ff5252'
+let s:lightredmaterial          = '#ff867f'
+let s:darkredmaterial           = '#c50e29'
+let s:pinkmaterial              = '#ff4081'
+let s:lightpinkmaterial         = '#ff79b0'
+let s:darkpinkmaterial          = '#c60055'
+let s:purplematerial            = '#e040fb'
+let s:lightpurplematerial       = '#ff79ff'
+let s:darkpurplematerial        = '#aa00c7'
+let s:deeppurplematerial        = '#7c4dff'
+let s:lightdeeppurplematerial   = '#b47cff'
+let s:indigo                    = '#536dfe'
+let s:darkdeeppurplematerial    = '#3f1dcb'
+let s:lightindigomaterial       = '#8f9bff'
+let s:darkindigomaterial        = '#0043ca'
+let s:bluematerial      = '#448aff'
+let s:lightbluematerial = '#83b9ff'
+let s:darkbluematerial = '#005ecb'
+let s:lightbluematerial = '#40c4ff'
+let s:lightlightbluematerial = '#82f7ff'
+let s:darklightbluematerial = '#0094cc'
+let s:cyanmaterial = '#18ffff'
+let s:lightcyanmaterial = '#76ffff'
+let s:darkcyanmaterial = '#00cbcc'
+let s:tealmaterial = '#65ffda'
+let s:lighttealmaterial = '#9effff'
+let s:darktealmaterial = '#14cba8'
+let s:greenmaterial = '#69f0ae'
+let s:lightgreenmaterial = '#9fffe0'
+let s:darkgreenmaterial = '#2bbd7e'
+let s:lightgreenmaterial = '#b2ff59'
+let s:lightlightgreenmaterial = '#e7ff8c'
+let s:darklightgreenmaterial = '#7ecb20'
+let s:limematerial = '#eeff71'
+let s:lightlimematerial = '#ffff78'
+let s:darklimematerial = '#b8cc00'
+let s:yellowmaterial = '#ffff00'
+let s:lightyellowmaterial = '#ffff5a'
+let s:darkyellowmaterial = '#c7cc00'
+let s:ambermaterial = '#ffd740'
+let s:lightambermaterial = '#ffff74'
+let s:darkambermaterial = '#c8a600'
+let s:orangematerial = '#ffab40'
+let s:lightorangematerial = '#ffdd71'
+let s:darkoragnematerial = '#c77c02'
+let s:deeporangematerial = '#ff6e40'
+let s:lightdeeporangematerial = '#ffa06d'
+let s:darkdeeporangematerial = '#c53d13'
+let s:brownmaterial = '#3e2723'
+let s:lightbrownmaterial = '#6a4f4b'
+let s:darkbrownmaterial = '#1b0000'
+let s:greymaterial = '#212121'
+let s:lightgreymaterial = '#484848'
+let s:darkgreymaterial = '#000000'
+let s:bluegreymaterial = '#263238'
+let s:lightbluegreymaterial = '#4f5b62'
+let s:darkbluegreymaterial = '#000a12'
 
 "
 " Vim color file
@@ -532,7 +532,7 @@ autocmd FileType python
     \ hi pythonBracket              guibg=NONE guifg=NONE gui=bold |
     \ hi pythonDottedName           guibg=NONE guifg=#EE4EB8 gui=bold |
     \ hi pythonFunction             guibg=NONE guifg=#87ff00 gui=bold |
-    \ hi pythonMethod               guibg=NONE guifg=#eeee00 gui=bold |
+    \ hi pythonMethod               guibg=NONE guifg=#00ebdb gui=bold |
     \ hi semshiAttribute            guibg=NONE guifg=#FF5995 gui=bold 
 
 
@@ -703,5 +703,18 @@ hi NERDTreeCWD			guibg=NONE guifg=#f02e6e
 """"""""""""
 " Clean up "
 """"""""""""
+
+hi NERDTreeExecFile		guifg=#87ff00 gui=bold
+hi NERDTreeDirSlash		guifg=#f02e6e gui=bold
+hi NERDTreeCWD			guibg=NONE guifg=#f02e6e
+hi pythonFunction       guifg=#87ff00 gui=bold
+""""""""""""
+" Clean up "
+""""""""""""
+hi Function guifg=#b2ff59
+hi semshiGlobal guifg=#63ff51
+hi pythonParam guifg=#ffa511
+hi Title guifg=#00cfff
+
 
 unlet s:shade0 s:shade1 s:shade2 s:shade3 s:shade4 s:shade5 s:shade6 s:shade7 s:red0 s:orange0 s:yellow0 s:green0 s:teal0 s:blue0 s:magenta0 s:pink0 s:red1 s:orange1 s:yellow1 s:green1 s:teal1 s:blue1 s:magenta1 s:pink1

@@ -634,5 +634,9 @@ hi pythonFunction       guifg=#87ff00 gui=bold
 """"""""""""
 " Clean up "
 """"""""""""
+hi Function guifg=#b2ff59
+hi semshiGlobal guifg=#63ff51
+hi pythonParam guifg=#ffa511
+hi Title guifg=#00cfff
 
 unlet s:shade0 s:shade1 s:shade2 s:shade3 s:shade4 s:shade5 s:shade6 s:shade7 s:red0 s:orange0 s:yellow0 s:green0 s:teal0 s:blue0 s:magenta0 s:pink0 s:red1 s:orange1 s:yellow1 s:green1 s:teal1 s:blue1 s:magenta1 s:pink1
