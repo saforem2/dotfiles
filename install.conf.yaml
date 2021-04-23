@@ -17,6 +17,7 @@
     ~/.bash_profile: bash_profile
     ~/.gitconfig: gitconfig
     ~/.gitignore_global: gitignore_global
+    ~/.surfingkeys.js: surfingkeys.js
     ~/.vim/after:
         relink: true
         path: vim/after
