@@ -136,3 +136,4 @@ set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
 
 highlight Cursor gui=reverse guifg=NONE guibg=NONE
 highlight Cursor gui=NONE guifg=bg guibg=fg
+colorscheme molokai_new

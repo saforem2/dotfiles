@@ -57,11 +57,11 @@ function! MyCustomHighlights()
     " hi semshiErrorChar       ctermfg=231 guifg=#ffffff ctermbg=160 guibg=#d70000
     hi Normal                guibg=NONE guifg=#e8e8e8 gui=NONE
     hi pythonDocstring       guibg=NONE guifg=#696c77
-    hi semshiGlobal          ctermfg=214 guifg=#00ffaf gui=bold
+    hi semshiGlobal          ctermfg=214 guifg=#ff00a2 gui=bold
     hi pythonComment         guibg=NONE guifg=#465457  gui=italic
-    hi pythonArgs            guibg=NONE guifg=#F92672
+    hi pythonArgs            guibg=NONE guifg=#ff5fff
     hi pythonKwargs          guibg=NONE guifg=#Fd971f gui=bold
-    hi pythonReturns         guibg=NONE guifg=#87ff00
+    hi pythonReturns         guibg=NONE guifg=#ff2600
     syntax match pythonMethod /\v[[:alpha:]_.]+\ze(\s?\()/
     " hi pythonMethod          guibg=NONE guifg=#d3ff00 gui=NONE
     " hi pythonMethod          guibg=NONE guifg=#ff5fff gui=NONE
@@ -71,6 +71,24 @@ function! MyCustomHighlights()
     " hi semshiSelf           ctermfg=249 guifg=#b2b2b2
     hi semshiSelf           ctermfg=249 guifg=#9e9e9e gui=NONE
     hi pythonImportedModule ctermfg=117 guifg=#03a9f4
+    hi NERDTreeExecFile		guifg=#87ff00 gui=bold
+    hi NERDTreeDirSlash		guifg=#f02e6e gui=bold
+    hi NERDTreeCWD			guibg=NONE guifg=#f02e6e
+    """"""""""""
+    " Clean up "
+    """"""""""""
+
+    hi NERDTreeExecFile		guifg=#87ff00 gui=bold
+    hi NERDTreeDirSlash		guifg=#f02e6e gui=bold
+    hi NERDTreeCWD			guibg=NONE guifg=#f02e6e
+    hi pythonFunction       guifg=#87ff00 gui=bold
+    """"""""""""
+    " Clean up "
+    """"""""""""
+    hi Function guifg=#b2ff59
+    hi semshiGlobal guifg=#63ff51
+    hi pythonParam guifg=#ffa511
+    hi Title guifg=#00cfff
 endfunction
 
 autocmd FileType python call MyCustomHighlights()
