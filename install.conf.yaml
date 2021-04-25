@@ -18,6 +18,7 @@
     ~/.gitconfig: gitconfig
     ~/.gitignore_global: gitignore_global
     ~/.surfingkeys.js: surfingkeys.js
+    ~/.surfingkeys_canary.js: surfingkeys_canary.js
     ~/.vim/after:
         relink: true
         path: vim/after
