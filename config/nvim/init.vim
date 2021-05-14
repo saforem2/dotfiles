@@ -97,6 +97,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'scr1pt0r/crease.vim'
 Plug 'MattesGroeger/vim-bookmarks'
 Plug 'liuchengxu/vista.vim'
+Plug 'ActivityWatch/aw-watcher-vim'
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
