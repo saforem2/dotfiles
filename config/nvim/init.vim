@@ -1,4 +1,6 @@
 source ~/.vimrc
+
+" let g:ale_disable_lsp=1
 " Specify a directory for plugins
 " - For Neovim: stdpath('data') . '/plugged'
 " - Avoid using standard Vim directory names like 'plugin'
@@ -42,7 +44,7 @@ Plug 'majutsushi/tagbar'
 Plug 'tpope/vim-repeat'
 Plug 'mbbill/undotree'
 Plug 'bkad/camelcasemotion'
-Plug 'nvie/vim-flake8'
+" Plug 'nvie/vim-flake8'
 " Plug 'argtextobj.vim'
 " Plug 'matchit.zip'
 Plug 'konfekt/fastfold'
@@ -79,7 +81,7 @@ Plug 'blueyed/vim-diminactive'
 Plug 'AndrewRadev/splitjoin.vim'
 Plug 'liuchengxu/vim-which-key', { 'on': ['WhichKey', 'WhichKey!'] }
 Plug 'junegunn/fzf.vim'
-Plug 'desmap/ale-sensible' | Plug 'w0rp/ale'
+" Plug 'desmap/ale-sensible' | Plug 'w0rp/ale'
 Plug 'mhinz/vim-startify'
 Plug 'simnalamburt/vim-mundo'
 Plug 'airblade/vim-rooter'
@@ -98,6 +100,7 @@ Plug 'scr1pt0r/crease.vim'
 Plug 'MattesGroeger/vim-bookmarks'
 Plug 'liuchengxu/vista.vim'
 Plug 'ActivityWatch/aw-watcher-vim'
+" Plug 'dense-analysis/ale'
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
@@ -105,6 +108,14 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " Initialize plugin system
 call plug#end()
+
+set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
+		  \,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
+		  \,sm:block-blinkwait175-blinkoff150-blinkon175
+
+highlight Cursor gui=reverse guifg=NONE guibg=NONE
+highlight Cursor gui=NONE guifg=bg guibg=fg
+colorscheme molokai_new
 
 "source $HOME/.config/nvim/config/init.vimrc
 source $HOME/.config/nvim/config/settings.vimrc
@@ -116,9 +127,12 @@ source $HOME/.config/nvim/config/keys.vimrc
 source $HOME/.config/nvim/config/fzf.vimrc
 source $HOME/.config/nvim/config/folds.vimrc
 " source $HOME/.config/nvim/config/ultisnips.vimrc
-source $HOME/.config/nvim/config/custom_highlights.vimrc
 source $HOME/.config/nvim/config/coc.vimrc
+source $HOME/.config/nvim/config/custom_highlights.vimrc
 
+autocmd ColorScheme * call MyCustomHighlights()
+
+" let g:coc_global_extensions = ['coc-json', 'coc-git', 'coc-python', 'coc-jedi', 'coc-pyright']
 "enable true colors in vim
 "
 set termguicolors
@@ -130,11 +144,6 @@ set redrawtime=10000
 "         :set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
 "           \,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
 "           \,sm:block-blinkwait175-blinkoff150-blinkon175
+" au FileType python let b:coc_root_patterns = ['.git', '.env', 'venv', '.venv', 'setup.cfg', 'setup.py', 'pyrightconfig.json']
 
-set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
-		  \,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
-		  \,sm:block-blinkwait175-blinkoff150-blinkon175
-
-highlight Cursor gui=reverse guifg=NONE guibg=NONE
-highlight Cursor gui=NONE guifg=bg guibg=fg
-colorscheme molokai_new
+" let g:airline#extensions#ale#enabled = 1

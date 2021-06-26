@@ -1,4 +1,8 @@
 " Add to ~/.vimrc
+"
+nmap yr :call system("ssh $machineA_IP pbcopy", @*)<CR>
+
+nmap <buffer> <leader>n :set nonumber norelativenumber
 
 " F5 opens a Terminal window with its current directory set to the current
 " file's parent.
@@ -7,11 +11,12 @@
 " help when the command itself is too long for the status bar. Putting the
 " command into a variable before executing may be another way to do it.
 " Even better: in a function, save sc (showcmd), set nosc, run cmd, restore sc.]
-map <F5> :!osascript -e 'tell app "Terminal" to activate do script with command "cd " & quoted form of "%:p:h"'<CR><CR>
+" map <F5> :!osascript -e 'tell app "Terminal" to activate do script with command "cd " & quoted form of "%:p:h"'<CR><CR>
 
 " Shift-F5 opens current buffer's folder in Finder, selecting the current file
 " if it exists. Works for both directories and files.
-map <S-F5> :silent execute '![ -f "%:p" ] && open -R "%:p" \|\| open "%:p:h"'<CR>"
+
+map <F5> :execute '![ -f "%:p" ] && open -R "%:p" \|\| open "%:p:h"'<CR>"
 
 " Use F12 to clean up most syntax highlighting problems
 noremap <F12> <Esc>:syntax sync fromstart<CR>
@@ -34,11 +39,9 @@ nmap <silent> <C-j> <Plug>(ale_next_wrap)
 " jedi go-to-definition
 nnoremap <silent> <buffer> <localleader>d :call jedi#goto_definitions()<CR>
 
-
 " Insert newline without entering insert mode
 nmap <S-Enter> O<Esc>
 nmap <CR> o<Esc>
-
 
 nmap <F3> :NERDTreeToggle<CR>
 
@@ -49,20 +52,15 @@ noremap % v%
 " get the name of the current file
 nnoremap ?? :echo expand('%:p')<CR>
 
-
 nmap zuz <Plug>(FastFoldUpdate)
-
 
 ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 "		show tagbar
 "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 nmap <F9> :TagbarToggle<CR>
 
-
 "Map F10 to spell-check local buffer only
 map <F10> :setlocal spell! spelllang=en_us<CR>
-
-
 
 nmap \q nohlsearch
 nnoremap <esc><esc> :silent! nohls<cr>
@@ -73,34 +71,12 @@ nnoremap N Nzz
 nnoremap * *zz
 nnoremap # #zz
 
-
 " set ctrl-P settings
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 
-
 " Reload the vimrc
 nmap <leader>vr :so ~/.vimrc
-
-
-"set easy motion settings
-" <Leader>f{char} to move to {char}
-" map <Leader>f <Plug>(easymotion-bd-f)
-" nmap <Leader>f <Plug>(easymotion-overwin-f)
-
-" s {char}{char} to move to {char}{char}
-" nmap s <Plug>(easymotion-overwin-f2)
-
-
-" Move to line
-" map <Leader>L <Plug>(easymotion-bd-jk)
-" nmap <Leader>L <Plug>(easymotion-overwin-line)
-
-" move to word
-" map <Leader>w <Plug>(easymotion-bd-w)
-" nmap <Leader>w <Plug>(easymotion-overwin-w)
-
-
 
 " define camelCaseMotion mappings
 "call camelcasemotion#CreateMotionMappings('<leader>')
@@ -117,20 +93,20 @@ sunmap E
 "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 " let g:AutoPairsShortcutFastWrap = '<C-e>'
 " let g:AutoPairsShortcutJump = '<C-o>'
-if has('nvim')
-	nmap <BS> <C-W>h
-endif
+" if has('nvim')
+"     nmap <BS> <C-W>h
+" endif
 
 
 
-""""""""""""""""""""""""""""""""
+nnoremap <silent> <C-K> :m .-2<CR>==
+nnoremap <silent> <C-J> :m .+1<CR>==
 " Move a line of text using ALT+[jk]
 "nnoremap <C-J> :m .+1<CR>==
-nnoremap <M-K> :m .-2<CR>==
-inoremap <M-J> <Esc>:m .+1<CR>==gi
-inoremap <M-K> <Esc>:m .-2<CR>==gi
-vnoremap <M-J> :m '>+1<CR>gv=gv
-vnoremap <M-K> :m '<-2<CR>gv=gv<F23>
+inoremap <silent> <C-J> <Esc>:m .+1<CR>==gi
+inoremap <silent> <C-K> <Esc>:m .-2<CR>==gi
+vnoremap <silent> <C-J> :m '>+1<CR>gv=gv
+vnoremap <silent> <C-K> :m '<-2<CR>gv=gv<F23>
 
 " cmap W w
 " cmap WQ wq
@@ -141,8 +117,6 @@ vnoremap <M-K> :m '<-2<CR>gv=gv<F23>
 cmap w!! w !sudo tee % >/dev/null
 "nore ; :
 nore , ;
-
-
 
 
 " Next Tab
@@ -411,3 +385,20 @@ nmap <silent> <leader>vc :VimtexCompile<CR>
 "     execute "map <LocalLeader>".i." ".i."gt"
 "     let i+=1
 " endwhile
+"
+"set easy motion settings
+" <Leader>f{char} to move to {char}
+" map <Leader>f <Plug>(easymotion-bd-f)
+" nmap <Leader>f <Plug>(easymotion-overwin-f)
+
+" s {char}{char} to move to {char}{char}
+" nmap s <Plug>(easymotion-overwin-f2)
+
+
+" Move to line
+" map <Leader>L <Plug>(easymotion-bd-jk)
+" nmap <Leader>L <Plug>(easymotion-overwin-line)
+
+" move to word
+" map <Leader>w <Plug>(easymotion-bd-w)
+" nmap <Leader>w <Plug>(easymotion-overwin-w)
